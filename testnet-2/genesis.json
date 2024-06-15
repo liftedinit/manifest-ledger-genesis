@@ -1,8 +1,8 @@
 {
-  "app_name": "<appd>",
+  "app_name": "manifestd",
   "app_version": "",
   "genesis_time": "2024-06-15T17:18:25.515252Z",
-  "chain_id": "test-chain-fDmWoY",
+  "chain_id": "manifest-ledger-beta",
   "initial_height": 1,
   "app_hash": null,
   "app_state": {
@@ -92,6 +92,13 @@
           "pub_key": null,
           "account_number": "10",
           "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "manifest12nzgtzdmypl844ak84hx4et8faeky4czwdg784",
+          "pub_key": null,
+          "account_number": "11",
+          "sequence": "0"
         }
       ]
     },
@@ -146,6 +153,15 @@
             {
               "denom": "upoa",
               "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "manifest12nzgtzdmypl844ak84hx4et8faeky4czwdg784",
+          "coins": [
+            {
+              "denom": "umfx",
+              "amount": "1000000000000000000"
             }
           ]
         },
@@ -205,6 +221,10 @@
         }
       ],
       "supply": [
+        {
+          "denom": "umfx",
+          "amount": "1000000000000000000"
+        },
         {
           "denom": "upoa",
           "amount": "11000000"
