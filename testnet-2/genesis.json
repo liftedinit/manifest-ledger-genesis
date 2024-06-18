@@ -1,7 +1,7 @@
 {
-  "app_name": "manifestd",
+  "app_name": "\u003cappd\u003e",
   "app_version": "",
-  "genesis_time": "2024-06-15T17:18:25.515252Z",
+  "genesis_time": "2024-06-17T17:47:22.890366013Z",
   "chain_id": "manifest-ledger-beta",
   "initial_height": 1,
   "app_hash": null,
@@ -9,7 +9,7 @@
     "07-tendermint": null,
     "auth": {
       "params": {
-        "max_memo_characters": "512",
+        "max_memo_characters": "256",
         "tx_sig_limit": "7",
         "tx_size_cost_per_byte": "10",
         "sig_verify_cost_ed25519": "590",
@@ -18,86 +18,93 @@
       "accounts": [
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "manifest1lxmlthqmp52rua06lag36d5x50rezuzta740un",
+          "address": "manifest1l5cvslyv5de7tyusqx70v7cp88u6s67lcffk7w",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "manifest1yckqdm7z37fjg83d5p7nsk4cva37nz854rnlt9",
+          "address": "manifest1wqp5n9j92tq9rs9skehnma5ulcvn977g3gkxhw",
           "pub_key": null,
           "account_number": "1",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "manifest1dxv9apcwc42wgnk39886wkah5456cgfdagmz4t",
+          "address": "manifest1m9km3slkutj642wrxe8gr9zr6evkz7n0mcl2g4",
           "pub_key": null,
           "account_number": "2",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "manifest1jxfp25egnemnl0ucp7lt2h6wxqvkacnrxfsl8m",
+          "address": "manifest15r72vgr968hnmtru7eyvfl7f8xq4c4st783nyz",
           "pub_key": null,
           "account_number": "3",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "manifest1qvx09snzvuzmsjnke96hauvkzud3spf5yn42cs",
+          "address": "manifest12kllfc044avyaqvkf0le2v323ekjzwnktll2rf",
           "pub_key": null,
           "account_number": "4",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "manifest1rsz9gnj5wvcjucypm0khjjajmffur2sfek0nr8",
+          "address": "manifest1t5dx78ap0l889ngdfjay9uexv0gsa3g3kpgpk8",
           "pub_key": null,
           "account_number": "5",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "manifest12kdsrc93zzvhemt20qd2l7dzc7gnqt4jzqzh0w",
+          "address": "manifest16840cufa7cg9x8ettevhk7hmzuy5qentha3r0r",
           "pub_key": null,
           "account_number": "6",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "manifest1sh958fhd0lhwa86mar0qkptx30vecc3wxc2rfu",
+          "address": "manifest1c8f5z8kt3zqmgd72x6ng0464jcxl5c7ep9zel0",
           "pub_key": null,
           "account_number": "7",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "manifest1y4tzw397lhydzmjj0423kzckgyg98t20xc7mwu",
+          "address": "manifest1upmfsa2zv7p4kwldh45fxhevrwy08al5sjppus",
           "pub_key": null,
           "account_number": "8",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "manifest1kgm4egjsg32ge48ku8deyx7zklay4r4vtn8umy",
+          "address": "manifest1e437zq54qyxsmcy3f0638jyruaq6pfnuye2yz3",
           "pub_key": null,
           "account_number": "9",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "manifest1yshc5az4mzv2alrlx9ftx28u3ptl2j3chfsu6x",
+          "address": "manifest1txwz8m4wsvvkkww7kkt892k3hk47cmm652lysd",
           "pub_key": null,
           "account_number": "10",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "manifest12nzgtzdmypl844ak84hx4et8faeky4czwdg784",
+          "address": "manifest1n5lw90e2dnrfxhp6h594wjfutajsrmjsetfsm7",
           "pub_key": null,
           "account_number": "11",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "manifest12nzgtzdmypl844ak84hx4et8faeky4czwdg784",
+          "pub_key": null,
+          "account_number": "12",
           "sequence": "0"
         }
       ]
@@ -112,51 +119,6 @@
       },
       "balances": [
         {
-          "address": "manifest1qvx09snzvuzmsjnke96hauvkzud3spf5yn42cs",
-          "coins": [
-            {
-              "denom": "upoa",
-              "amount": "1000000"
-            }
-          ]
-        },
-        {
-          "address": "manifest1rsz9gnj5wvcjucypm0khjjajmffur2sfek0nr8",
-          "coins": [
-            {
-              "denom": "upoa",
-              "amount": "1000000"
-            }
-          ]
-        },
-        {
-          "address": "manifest1yshc5az4mzv2alrlx9ftx28u3ptl2j3chfsu6x",
-          "coins": [
-            {
-              "denom": "upoa",
-              "amount": "1000000"
-            }
-          ]
-        },
-        {
-          "address": "manifest1y4tzw397lhydzmjj0423kzckgyg98t20xc7mwu",
-          "coins": [
-            {
-              "denom": "upoa",
-              "amount": "1000000"
-            }
-          ]
-        },
-        {
-          "address": "manifest1yckqdm7z37fjg83d5p7nsk4cva37nz854rnlt9",
-          "coins": [
-            {
-              "denom": "upoa",
-              "amount": "1000000"
-            }
-          ]
-        },
-        {
           "address": "manifest12nzgtzdmypl844ak84hx4et8faeky4czwdg784",
           "coins": [
             {
@@ -166,7 +128,7 @@
           ]
         },
         {
-          "address": "manifest12kdsrc93zzvhemt20qd2l7dzc7gnqt4jzqzh0w",
+          "address": "manifest12kllfc044avyaqvkf0le2v323ekjzwnktll2rf",
           "coins": [
             {
               "denom": "upoa",
@@ -175,7 +137,7 @@
           ]
         },
         {
-          "address": "manifest1dxv9apcwc42wgnk39886wkah5456cgfdagmz4t",
+          "address": "manifest1txwz8m4wsvvkkww7kkt892k3hk47cmm652lysd",
           "coins": [
             {
               "denom": "upoa",
@@ -184,7 +146,7 @@
           ]
         },
         {
-          "address": "manifest1sh958fhd0lhwa86mar0qkptx30vecc3wxc2rfu",
+          "address": "manifest1t5dx78ap0l889ngdfjay9uexv0gsa3g3kpgpk8",
           "coins": [
             {
               "denom": "upoa",
@@ -193,7 +155,7 @@
           ]
         },
         {
-          "address": "manifest1jxfp25egnemnl0ucp7lt2h6wxqvkacnrxfsl8m",
+          "address": "manifest1wqp5n9j92tq9rs9skehnma5ulcvn977g3gkxhw",
           "coins": [
             {
               "denom": "upoa",
@@ -202,7 +164,7 @@
           ]
         },
         {
-          "address": "manifest1kgm4egjsg32ge48ku8deyx7zklay4r4vtn8umy",
+          "address": "manifest1n5lw90e2dnrfxhp6h594wjfutajsrmjsetfsm7",
           "coins": [
             {
               "denom": "upoa",
@@ -211,7 +173,61 @@
           ]
         },
         {
-          "address": "manifest1lxmlthqmp52rua06lag36d5x50rezuzta740un",
+          "address": "manifest15r72vgr968hnmtru7eyvfl7f8xq4c4st783nyz",
+          "coins": [
+            {
+              "denom": "upoa",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "manifest1c8f5z8kt3zqmgd72x6ng0464jcxl5c7ep9zel0",
+          "coins": [
+            {
+              "denom": "upoa",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "manifest1e437zq54qyxsmcy3f0638jyruaq6pfnuye2yz3",
+          "coins": [
+            {
+              "denom": "upoa",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "manifest16840cufa7cg9x8ettevhk7hmzuy5qentha3r0r",
+          "coins": [
+            {
+              "denom": "upoa",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "manifest1m9km3slkutj642wrxe8gr9zr6evkz7n0mcl2g4",
+          "coins": [
+            {
+              "denom": "upoa",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "manifest1upmfsa2zv7p4kwldh45fxhevrwy08al5sjppus",
+          "coins": [
+            {
+              "denom": "upoa",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "manifest1l5cvslyv5de7tyusqx70v7cp88u6s67lcffk7w",
           "coins": [
             {
               "denom": "upoa",
@@ -227,7 +243,7 @@
         },
         {
           "denom": "upoa",
-          "amount": "11000000"
+          "amount": "12000000"
         }
       ],
       "denom_metadata": [
@@ -270,13 +286,13 @@
     "consensus": null,
     "crisis": {
       "constant_fee": {
-        "denom": "umfx",
-        "amount": "100000000"
+        "denom": "upoa",
+        "amount": "1000"
       }
     },
     "distribution": {
       "params": {
-        "community_tax": "0.000000000000000000",
+        "community_tax": "0.020000000000000000",
         "base_proposer_reward": "0.000000000000000000",
         "bonus_proposer_reward": "0.000000000000000000",
         "withdraw_addr_enabled": true
@@ -314,7 +330,7 @@
               {
                 "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                 "description": {
-                  "moniker": "s002-u001.manifest0.net",
+                  "moniker": "s014-u001.manifest0.net",
                   "identity": "",
                   "website": "",
                   "security_contact": "",
@@ -327,10 +343,10 @@
                 },
                 "min_self_delegation": "1",
                 "delegator_address": "",
-                "validator_address": "manifestvaloper1kgm4egjsg32ge48ku8deyx7zklay4r4vhn6ghk",
+                "validator_address": "manifestvaloper15r72vgr968hnmtru7eyvfl7f8xq4c4stz8v8gs",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "xD3jqRgI3oHjLDJjr1KIwqseie8Mf0h2PRErkACRJK4="
+                  "key": "jLrzSRZSUDyt+ddRbRYsT8WrKmNlp1VBEyw7abqhp18="
                 },
                 "value": {
                   "denom": "upoa",
@@ -338,7 +354,7 @@
                 }
               }
             ],
-            "memo": "c2adc47da8538b4a48f8369a18e4e6db8c8997eb@192.0.0.2:26656",
+            "memo": "02146a53b0d2574d601a7609b6e07d6a554f45b6@67.214.160.111:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -348,7 +364,7 @@
               {
                 "public_key": {
                   "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "AgO4e45cR12+jzl9/911rahLuo8OTGrm7s9A9yu2TKP7"
+                  "key": "Al2FfIA8CeKoYxgmyVQvPvCfKIep3sqLGBM0RXCVAy+J"
                 },
                 "mode_info": {
                   "single": {
@@ -367,193 +383,7 @@
             "tip": null
           },
           "signatures": [
-            "d/kjmtNwk8QZ1HcMoImBdBXUryMQLipxTQrNHyjuoy5uLpd7vGQy5OMtGD3mQQ/5WHZXHcjcHgWUSjJRXYgWZQ=="
-          ]
-        },
-        {
-          "body": {
-            "messages": [
-              {
-                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
-                "description": {
-                  "moniker": "s002-u005.manifest0.net",
-                  "identity": "",
-                  "website": "",
-                  "security_contact": "",
-                  "details": ""
-                },
-                "commission": {
-                  "rate": "0.000000000000000000",
-                  "max_rate": "0.200000000000000000",
-                  "max_change_rate": "0.010000000000000000"
-                },
-                "min_self_delegation": "1",
-                "delegator_address": "",
-                "validator_address": "manifestvaloper1yshc5az4mzv2alrlx9ftx28u3ptl2j3ctfdgk5",
-                "pubkey": {
-                  "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "xD3jqRgI3oHjLDJjr1KIwqseie8Mf0h2PRErkACRJK4="
-                },
-                "value": {
-                  "denom": "upoa",
-                  "amount": "1000000"
-                }
-              }
-            ],
-            "memo": "c2adc47da8538b4a48f8369a18e4e6db8c8997eb@192.0.0.2:26656",
-            "timeout_height": "0",
-            "extension_options": [],
-            "non_critical_extension_options": []
-          },
-          "auth_info": {
-            "signer_infos": [
-              {
-                "public_key": {
-                  "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "A/LOlWRY5T7cBXkywRZzdvyKMouPRxxovGE1Xe16zIF0"
-                },
-                "mode_info": {
-                  "single": {
-                    "mode": "SIGN_MODE_DIRECT"
-                  }
-                },
-                "sequence": "0"
-              }
-            ],
-            "fee": {
-              "amount": [],
-              "gas_limit": "200000",
-              "payer": "",
-              "granter": ""
-            },
-            "tip": null
-          },
-          "signatures": [
-            "2++aQzTmqW9qNvIQyXmQ9tYiktOPJTJSD47Mka41yS13Om7PSgctjfpAQ/6BV8IZjigeABxy1pXf5gHIJ80xvw=="
-          ]
-        },
-        {
-          "body": {
-            "messages": [
-              {
-                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
-                "description": {
-                  "moniker": "s011-u005.manifest0.net",
-                  "identity": "",
-                  "website": "",
-                  "security_contact": "",
-                  "details": ""
-                },
-                "commission": {
-                  "rate": "0.000000000000000000",
-                  "max_rate": "0.200000000000000000",
-                  "max_change_rate": "0.010000000000000000"
-                },
-                "min_self_delegation": "1",
-                "delegator_address": "",
-                "validator_address": "manifestvaloper12kdsrc93zzvhemt20qd2l7dzc7gnqt4j7qlrru",
-                "pubkey": {
-                  "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "xD3jqRgI3oHjLDJjr1KIwqseie8Mf0h2PRErkACRJK4="
-                },
-                "value": {
-                  "denom": "upoa",
-                  "amount": "1000000"
-                }
-              }
-            ],
-            "memo": "c2adc47da8538b4a48f8369a18e4e6db8c8997eb@192.0.0.2:26656",
-            "timeout_height": "0",
-            "extension_options": [],
-            "non_critical_extension_options": []
-          },
-          "auth_info": {
-            "signer_infos": [
-              {
-                "public_key": {
-                  "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "AzxFzI++7zsPWfcSJxeQZAS4hvmH4Z+93NEpbk0JZfbi"
-                },
-                "mode_info": {
-                  "single": {
-                    "mode": "SIGN_MODE_DIRECT"
-                  }
-                },
-                "sequence": "0"
-              }
-            ],
-            "fee": {
-              "amount": [],
-              "gas_limit": "200000",
-              "payer": "",
-              "granter": ""
-            },
-            "tip": null
-          },
-          "signatures": [
-            "WolUYb/OD7F34WG8n9CPNgo4BzKGXJItgMZDavlITbUAxL7JitF4vsflS+dwcup6B/akoJIu6T0S1CyHQpFdvg=="
-          ]
-        },
-        {
-          "body": {
-            "messages": [
-              {
-                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
-                "description": {
-                  "moniker": "s011-u006.manifest0.net",
-                  "identity": "",
-                  "website": "",
-                  "security_contact": "",
-                  "details": ""
-                },
-                "commission": {
-                  "rate": "0.000000000000000000",
-                  "max_rate": "0.200000000000000000",
-                  "max_change_rate": "0.010000000000000000"
-                },
-                "min_self_delegation": "1",
-                "delegator_address": "",
-                "validator_address": "manifestvaloper1sh958fhd0lhwa86mar0qkptx30vecc3w6chh9w",
-                "pubkey": {
-                  "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "xD3jqRgI3oHjLDJjr1KIwqseie8Mf0h2PRErkACRJK4="
-                },
-                "value": {
-                  "denom": "upoa",
-                  "amount": "1000000"
-                }
-              }
-            ],
-            "memo": "c2adc47da8538b4a48f8369a18e4e6db8c8997eb@192.0.0.2:26656",
-            "timeout_height": "0",
-            "extension_options": [],
-            "non_critical_extension_options": []
-          },
-          "auth_info": {
-            "signer_infos": [
-              {
-                "public_key": {
-                  "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "A1FLOoQS85R9mZ3V7+hjh5aD2FbUXBA7j7RKdNk+frxM"
-                },
-                "mode_info": {
-                  "single": {
-                    "mode": "SIGN_MODE_DIRECT"
-                  }
-                },
-                "sequence": "0"
-              }
-            ],
-            "fee": {
-              "amount": [],
-              "gas_limit": "200000",
-              "payer": "",
-              "granter": ""
-            },
-            "tip": null
-          },
-          "signatures": [
-            "Z5shWna3WWT4UgwaLObnOEZ/b0sICTiHrasnu+NZxrAj15imX6VkEu5Zhl8Y+fuY1XYDSO2GZfA7UT41N8JcJQ=="
+            "aO61eT2yCymDggHBUbWIMNLh0u2dc/YF4d5LNL376R8koIylk/yu5v+BUex16YDKd2utVBJZ+v8xlyE5XDNjTQ=="
           ]
         },
         {
@@ -575,10 +405,10 @@
                 },
                 "min_self_delegation": "1",
                 "delegator_address": "",
-                "validator_address": "manifestvaloper1y4tzw397lhydzmjj0423kzckgyg98t206cr0zw",
+                "validator_address": "manifestvaloper1upmfsa2zv7p4kwldh45fxhevrwy08al5vju4sz",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "xD3jqRgI3oHjLDJjr1KIwqseie8Mf0h2PRErkACRJK4="
+                  "key": "gd3ZzvR8AgwP3mTksPNTrYOM8IwSN+CbkkIaZ41WznQ="
                 },
                 "value": {
                   "denom": "upoa",
@@ -586,7 +416,7 @@
                 }
               }
             ],
-            "memo": "c2adc47da8538b4a48f8369a18e4e6db8c8997eb@192.0.0.2:26656",
+            "memo": "3697963cb9072dec48a4db0fcf350858d65d3584@128.136.150.202:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -596,7 +426,7 @@
               {
                 "public_key": {
                   "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "AynUU+cLsPgdNR9dTgIqUVvmwji8HV8g4LqOUPX1Gkut"
+                  "key": "AswOoC3sB4k/bkGJDHlfp+XhGOxzt8Qc3qn5qUa61huC"
                 },
                 "mode_info": {
                   "single": {
@@ -615,131 +445,7 @@
             "tip": null
           },
           "signatures": [
-            "7UOTLrQri1c1Ar/8nSpkdTHQpSlSb0XDydutSd1oTf0eNoOOL0SiPUpCNfnamhE94DYVtEt3PRr7uZyOiP9gUg=="
-          ]
-        },
-        {
-          "body": {
-            "messages": [
-              {
-                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
-                "description": {
-                  "moniker": "s013-u001.manifest0.net",
-                  "identity": "",
-                  "website": "",
-                  "security_contact": "",
-                  "details": ""
-                },
-                "commission": {
-                  "rate": "0.000000000000000000",
-                  "max_rate": "0.200000000000000000",
-                  "max_change_rate": "0.010000000000000000"
-                },
-                "min_self_delegation": "1",
-                "delegator_address": "",
-                "validator_address": "manifestvaloper1lxmlthqmp52rua06lag36d5x50rezuztp7gmsp",
-                "pubkey": {
-                  "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "xD3jqRgI3oHjLDJjr1KIwqseie8Mf0h2PRErkACRJK4="
-                },
-                "value": {
-                  "denom": "upoa",
-                  "amount": "1000000"
-                }
-              }
-            ],
-            "memo": "c2adc47da8538b4a48f8369a18e4e6db8c8997eb@192.0.0.2:26656",
-            "timeout_height": "0",
-            "extension_options": [],
-            "non_critical_extension_options": []
-          },
-          "auth_info": {
-            "signer_infos": [
-              {
-                "public_key": {
-                  "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "A025RQdhC+mL4XZopFmWREGyWIEUYKv8iiIa9Qf2+aa8"
-                },
-                "mode_info": {
-                  "single": {
-                    "mode": "SIGN_MODE_DIRECT"
-                  }
-                },
-                "sequence": "0"
-              }
-            ],
-            "fee": {
-              "amount": [],
-              "gas_limit": "200000",
-              "payer": "",
-              "granter": ""
-            },
-            "tip": null
-          },
-          "signatures": [
-            "7zII+v/IsccjMmQdRc/FwTxVWzjqqCfphRmbRUycelMjTQurRSA4F65pT8vh/ypJaJfHZoEHezX7QjhQX2jryg=="
-          ]
-        },
-        {
-          "body": {
-            "messages": [
-              {
-                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
-                "description": {
-                  "moniker": "s013-u002.manifest0.net",
-                  "identity": "",
-                  "website": "",
-                  "security_contact": "",
-                  "details": ""
-                },
-                "commission": {
-                  "rate": "0.000000000000000000",
-                  "max_rate": "0.200000000000000000",
-                  "max_change_rate": "0.010000000000000000"
-                },
-                "min_self_delegation": "1",
-                "delegator_address": "",
-                "validator_address": "manifestvaloper1yckqdm7z37fjg83d5p7nsk4cva37nz85frwt8h",
-                "pubkey": {
-                  "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "xD3jqRgI3oHjLDJjr1KIwqseie8Mf0h2PRErkACRJK4="
-                },
-                "value": {
-                  "denom": "upoa",
-                  "amount": "1000000"
-                }
-              }
-            ],
-            "memo": "c2adc47da8538b4a48f8369a18e4e6db8c8997eb@192.0.0.2:26656",
-            "timeout_height": "0",
-            "extension_options": [],
-            "non_critical_extension_options": []
-          },
-          "auth_info": {
-            "signer_infos": [
-              {
-                "public_key": {
-                  "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "Arm4kfTZ2ZzKf5nGAmzgBdQUYmq1rZhkkSBPTFZJn47v"
-                },
-                "mode_info": {
-                  "single": {
-                    "mode": "SIGN_MODE_DIRECT"
-                  }
-                },
-                "sequence": "0"
-              }
-            ],
-            "fee": {
-              "amount": [],
-              "gas_limit": "200000",
-              "payer": "",
-              "granter": ""
-            },
-            "tip": null
-          },
-          "signatures": [
-            "Xvy/Henae2hKL2FxwM3UNHFoyaYJzNcNrddBH5ry3FgpddgFdMyizTIzQ4+rcwmDmDOXfJz91AXo5lCkn321yQ=="
+            "6yyg2u3e2/1jpcW0ecwQLKRo1NjH5iSr2z5wLVR+Dzhr2cRdeVi+py9jT8DE2Vd0WV9Tg1GUwfKdzWWORJt7sg=="
           ]
         },
         {
@@ -761,10 +467,10 @@
                 },
                 "min_self_delegation": "1",
                 "delegator_address": "",
-                "validator_address": "manifestvaloper1dxv9apcwc42wgnk39886wkah5456cgfdpgxkee",
+                "validator_address": "manifestvaloper1m9km3slkutj642wrxe8gr9zr6evkz7n08cz7y8",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "xD3jqRgI3oHjLDJjr1KIwqseie8Mf0h2PRErkACRJK4="
+                  "key": "m0A216h9BpH4hLW+SI7yOeH3fWnaJabDGVSW6N3+shk="
                 },
                 "value": {
                   "denom": "upoa",
@@ -772,7 +478,7 @@
                 }
               }
             ],
-            "memo": "c2adc47da8538b4a48f8369a18e4e6db8c8997eb@192.0.0.2:26656",
+            "memo": "4527da83622b67e939ffacaff1b13bd449693804@172.20.188.58:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -782,7 +488,7 @@
               {
                 "public_key": {
                   "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "AimeZtvW9wPUNaImOZrDArprGgwkYveTkx3I5olRCc7g"
+                  "key": "Aw37cuvAahynBzkbOkCsNXn2sD5BRHM0Wzd8osJG9udZ"
                 },
                 "mode_info": {
                   "single": {
@@ -801,7 +507,7 @@
             "tip": null
           },
           "signatures": [
-            "QpKfV3hZ3bLA2Qwv59+vsJ/2P7MKBgnuxarYE+d3b2kjwd0KXxcAIXZwGYU3TWzRMxLO9w+53pN9XUslg44B9w=="
+            "D4zdCXKi+piC4sryTcWC0XsnYRWze/M3uTobcbi4JdceNcglE7QHEt3D6tMJQRYQ3yH9cmAHSLTaxlMTAAb8FQ=="
           ]
         },
         {
@@ -810,7 +516,7 @@
               {
                 "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                 "description": {
-                  "moniker": "s014-u001.manifest0.net",
+                  "moniker": "s011-u005.manifest0.net",
                   "identity": "",
                   "website": "",
                   "security_contact": "",
@@ -823,10 +529,10 @@
                 },
                 "min_self_delegation": "1",
                 "delegator_address": "",
-                "validator_address": "manifestvaloper1jxfp25egnemnl0ucp7lt2h6wxqvkacnr6fdttf",
+                "validator_address": "manifestvaloper16840cufa7cg9x8ettevhk7hmzuy5qenttavhr3",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "xD3jqRgI3oHjLDJjr1KIwqseie8Mf0h2PRErkACRJK4="
+                  "key": "7pObytiozEVcC3xs7W/2IgTHDtEJOidAb0C3pzvAhsk="
                 },
                 "value": {
                   "denom": "upoa",
@@ -834,7 +540,7 @@
                 }
               }
             ],
-            "memo": "c2adc47da8538b4a48f8369a18e4e6db8c8997eb@192.0.0.2:26656",
+            "memo": "4a4cc3f41889304706b2d24b3e0f09ee23f5d197@128.136.150.200:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -844,7 +550,7 @@
               {
                 "public_key": {
                   "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "ArvzGGCGWakFPoBwjPvKz9040yHSlO8VvW51Rf07Yk5N"
+                  "key": "A08lTfou2YMtQBLpBfoIpyOEkDqolBQQJ1h+CsENZEKA"
                 },
                 "mode_info": {
                   "single": {
@@ -863,69 +569,7 @@
             "tip": null
           },
           "signatures": [
-            "k1MxXSkjG57Kd2RJypiZIUhMvhiPTkhG1OSZ63MUgy4QrDwd7ccEB7e1nF2QsAR2dJj9fGrhgqEZmV0wyxex5w=="
-          ]
-        },
-        {
-          "body": {
-            "messages": [
-              {
-                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
-                "description": {
-                  "moniker": "s014-u002.manifest0.net",
-                  "identity": "",
-                  "website": "",
-                  "security_contact": "",
-                  "details": ""
-                },
-                "commission": {
-                  "rate": "0.000000000000000000",
-                  "max_rate": "0.200000000000000000",
-                  "max_change_rate": "0.010000000000000000"
-                },
-                "min_self_delegation": "1",
-                "delegator_address": "",
-                "validator_address": "manifestvaloper1qvx09snzvuzmsjnke96hauvkzud3spf5cng75z",
-                "pubkey": {
-                  "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "xD3jqRgI3oHjLDJjr1KIwqseie8Mf0h2PRErkACRJK4="
-                },
-                "value": {
-                  "denom": "upoa",
-                  "amount": "1000000"
-                }
-              }
-            ],
-            "memo": "c2adc47da8538b4a48f8369a18e4e6db8c8997eb@192.0.0.2:26656",
-            "timeout_height": "0",
-            "extension_options": [],
-            "non_critical_extension_options": []
-          },
-          "auth_info": {
-            "signer_infos": [
-              {
-                "public_key": {
-                  "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "A1JxxLzUvy7aGX3nwUpwo6gQO8oVvR8nul/1IQ7HTgHj"
-                },
-                "mode_info": {
-                  "single": {
-                    "mode": "SIGN_MODE_DIRECT"
-                  }
-                },
-                "sequence": "0"
-              }
-            ],
-            "fee": {
-              "amount": [],
-              "gas_limit": "200000",
-              "payer": "",
-              "granter": ""
-            },
-            "tip": null
-          },
-          "signatures": [
-            "QzHGbiGLXeNMUByo8J11/2MsQelOcQV4NmuukKpNVuIoBAet1Md71474KNgcPhYmO97LLsO3ytrDO8ArkPgE/g=="
+            "LTEyl4uBeYB+Mzi/sW9zRO4/k7sas/Dsba+K/2/edNYbV6FTm1DVQ4lT0LggoQQLrO7cznPx0M/D2zrDszOpaA=="
           ]
         },
         {
@@ -947,10 +591,10 @@
                 },
                 "min_self_delegation": "1",
                 "delegator_address": "",
-                "validator_address": "manifestvaloper1rsz9gnj5wvcjucypm0khjjajmffur2sf9kj804",
+                "validator_address": "manifestvaloper1t5dx78ap0l889ngdfjay9uexv0gsa3g32p4464",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "xD3jqRgI3oHjLDJjr1KIwqseie8Mf0h2PRErkACRJK4="
+                  "key": "3A5FpkrMvX3ez0eIydF6zgPY7sAQNIE7DF7xE+rT6rk="
                 },
                 "value": {
                   "denom": "upoa",
@@ -958,7 +602,7 @@
                 }
               }
             ],
-            "memo": "c2adc47da8538b4a48f8369a18e4e6db8c8997eb@192.0.0.2:26656",
+            "memo": "6d5e0d5cc194c0ef061eeece64df9fba250f64e4@67.214.160.113:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -968,7 +612,7 @@
               {
                 "public_key": {
                   "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "A9r+4RvToS5A8n8DU6v1CoAyn92ksDWrGRhZDl8hl/+2"
+                  "key": "AkirhaXN8NV9WV+8rJcXkQ3o3lTGnjWxP9RKVhzCSEax"
                 },
                 "mode_info": {
                   "single": {
@@ -987,7 +631,441 @@
             "tip": null
           },
           "signatures": [
-            "+b5qQC5mbMP39aRouRBgt8ApjQD8dzT3Cd2JJ16OV2dm9UKfjBUmwZlkQ/6MxNN2QMbupbHI8xxxFbaXQR7hTw=="
+            "+RHjPp4CgJEpUQncZuGJZ1JC6d5Tu9oOT+wdGIftAVZ6ZNozYMIL9D4HxL6geu/wb0UxZuM5SZLTA51K8oUXQQ=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "s002-u001.manifest0.net",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.000000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "",
+                "validator_address": "manifestvaloper1e437zq54qyxsmcy3f0638jyruaq6pfnucehswr",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "6K936ZvkuMZxtvKKcpdOKF5HFEItF3JoSxmPJSe86kA="
+                },
+                "value": {
+                  "denom": "upoa",
+                  "amount": "1000000"
+                }
+              }
+            ],
+            "memo": "72e105df721be151005b6df1db68276cc50a368c@172.16.7.228:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AlEJdLtWjbKvn6RJM/Pvb7eXreuYXzy2jrF5Wt4+w5Ao"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "stZGTYupy0tyD9ONvd3jtPZ4DHeAhvA4G7PfMB+qpP40igjACJ68RcrNB7S/ZdcudRKtNGLZwOjV2wqb88leKg=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "s013-u001.manifest0.net",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.000000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "",
+                "validator_address": "manifestvaloper1l5cvslyv5de7tyusqx70v7cp88u6s67lyf5zju",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "g3dlvaoxgXxOgQbWWjbWHut8vh7A+YhYZih2FaodxPw="
+                },
+                "value": {
+                  "denom": "upoa",
+                  "amount": "1000000"
+                }
+              }
+            ],
+            "memo": "79483b84aa95b3b2d2b1332ed1171e1f325b1dad@172.20.188.51:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AjSIt5QoFBj9fcEtk6D+fYBmx4XOWD3CyrBV6mxnH1/j"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "u0GbdXvaxnA5KbpiiIgjy+c8QOGvf+J+5P7RqVwE+wNleYm8zEOtBEbuUQUlZF3dbPgW8nU/cMCjQk9ODW6CNA=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "s011-u006.manifest0.net",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.000000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "",
+                "validator_address": "manifestvaloper1c8f5z8kt3zqmgd72x6ng0464jcxl5c7ea9ldna",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "17wrTAev2ZOnBWH56Qhl8KQN+JnuWU0wpTOmQmr/GcA="
+                },
+                "value": {
+                  "denom": "upoa",
+                  "amount": "1000000"
+                }
+              }
+            ],
+            "memo": "963a6ca9c3174591e52ca3781d4aca3bbfff7192@128.136.150.201:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "ApjuyhJVH3n72sJ52R4HbLMkGEBSy7r9j9X91Ww3DaYK"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "UI+ASur9UEpgtctNhaG6+JGr+U99pfM+AFp5ZdtQ5Vgl0Y8g+Tm3J3VynTDBBnfWaZz5ZnN2A6YpFGnKJklf1g=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "s002-u009.manifest0.net",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.000000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "",
+                "validator_address": "manifestvaloper1n5lw90e2dnrfxhp6h594wjfutajsrmjs9t5yhv",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "Fbkub5T7PNVML8jVEVBPdOGJxVsQufiePCIFDaEO+sk="
+                },
+                "value": {
+                  "denom": "upoa",
+                  "amount": "1000000"
+                }
+              }
+            ],
+            "memo": "a014c20d6cf585d66b7fcd486d787154dac74a31@72.15.248.236:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A38rHIdNtuA5E9YZoHqfVK8+z0zX0nYAm1cFuVCg+d2w"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "jEwdNreqbhcwvLc32IdPYrLq/wPcqwD8liBpBrdicEYH3x8Rtfe1gB6M9tjWMzX3Vdeh785E7pYW51ssbidK9A=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "s014-u002.manifest0.net",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.000000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "",
+                "validator_address": "manifestvaloper12kllfc044avyaqvkf0le2v323ekjzwnkhlz70m",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "J84IyN4UMhlX+6unWI0J7O7cW9mOWXxXRSfVb8oSiXs="
+                },
+                "value": {
+                  "denom": "upoa",
+                  "amount": "1000000"
+                }
+              }
+            ],
+            "memo": "ca3d61c44b8edea4ada55b5f6620f8be16edfd22@67.214.160.112:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AtAVE8vXvUWPhba1r/r2xjbZ5sSEVYjWlxx71LlCS9un"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "MN8P0VbpmASDYCFoEkDNlpeeX+lN/Tqr6X/hTMq7kz0mW8IE9P0snanI+CfWrhljX6wtNbev4uftaqJZ2ZqRAw=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "s013-u002.manifest0.net",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.000000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "",
+                "validator_address": "manifestvaloper1wqp5n9j92tq9rs9skehnma5ulcvn977gdgtjmu",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "iSiAhgOfBRKtIB5eqJK7MWUlzXHhNvMQKtPBkUZISdc="
+                },
+                "value": {
+                  "denom": "upoa",
+                  "amount": "1000000"
+                }
+              }
+            ],
+            "memo": "f3b656d0a47c7e3ba01fee516a4ecaa78fcf50f4@172.20.188.52:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AipI3aJev4IksSmbtodTWp80Z/NblDpxHZsdy5gmOsUM"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "ws9ZdWHVTEedL2GL53HLTXGZEUQUHhEmaycactrV06IJruvmQ8jRqPxOYL/ihn+SORXY9e3L9dBoIh++GJNGPg=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "s002-u005.manifest0.net",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.000000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "",
+                "validator_address": "manifestvaloper1txwz8m4wsvvkkww7kkt892k3hk47cmm6g2zsul",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "GH+By395rwgutZPyi9FA8ZlnaZ4Vznl63hfBal9EU2g="
+                },
+                "value": {
+                  "denom": "upoa",
+                  "amount": "1000000"
+                }
+              }
+            ],
+            "memo": "ff15b5e76ad64c0dca89f1345e917a1805a1938d@72.15.248.232:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AzX7nmIIk/ZRkS7OTTEuGCnZlBRrBZghkTAqDFVkCQ6O"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "4RIySY8n97NExUIzd7bLigaFKeFYgPg/PuILj4AnOSxh4sDQr0QlrDETmaV67tY3gtv1Z2bAjwW+YgEcyZfojQ=="
           ]
         }
       ]
@@ -1007,7 +1085,7 @@
             "amount": "1000000"
           }
         ],
-        "max_deposit_period": "259200s",
+        "max_deposit_period": "172800s",
         "voting_period": "15s",
         "quorum": "0.334000000000000000",
         "threshold": "0.500000000000000000",
@@ -1019,68 +1097,23 @@
         "expedited_threshold": "0.667000000000000000",
         "expedited_min_deposit": [
           {
-            "denom": "umfx",
-            "amount": "250000000"
+            "denom": "upoa",
+            "amount": "50000000"
           }
         ],
         "burn_vote_quorum": false,
         "burn_proposal_deposit_prevote": false,
         "burn_vote_veto": true,
-        "min_deposit_ratio": "0.100000000000000000"
+        "min_deposit_ratio": "0.010000000000000000"
       },
       "constitution": ""
     },
     "group": {
-      "group_seq": "1",
-      "groups": [
-        {
-          "id": "1",
-          "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj",
-          "metadata": "AQ==",
-          "version": "2",
-          "total_weight": "2",
-          "created_at": "2024-05-16T15:10:54.372190727Z"
-        }
-      ],
-      "group_members": [
-        {
-          "group_id": "1",
-          "member": {
-            "address": "manifest1hj5fveer5cjtn4wd6wstzugjfdxzl0xp8ws9ct",
-            "weight": "1",
-            "metadata": "user1",
-            "added_at": "2024-05-16T15:10:54.372190727Z"
-          }
-        },
-        {
-          "group_id": "1",
-          "member": {
-            "address": "manifest1efd63aw40lxf3n4mhf7dzhjkr453axurm6rp3z",
-            "weight": "1",
-            "metadata": "user2",
-            "added_at": "2024-05-16T15:10:54.372190727Z"
-          }
-        }
-      ],
-      "group_policy_seq": "1",
-      "group_policies": [
-        {
-          "address": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj",
-          "group_id": "1",
-          "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj",
-          "metadata": "AQ==",
-          "version": "2",
-          "decision_policy": {
-            "@type": "/cosmos.group.v1.ThresholdDecisionPolicy",
-            "threshold": "1",
-            "windows": {
-              "voting_period": "30s",
-              "min_execution_period": "0s"
-            }
-          },
-          "created_at": "2024-05-16T15:10:54.372190727Z"
-        }
-      ],
+      "group_seq": "0",
+      "groups": [],
+      "group_members": [],
+      "group_policy_seq": "0",
+      "group_policies": [],
       "proposal_seq": "0",
       "proposals": [],
       "votes": []
@@ -1148,25 +1181,18 @@
       }
     },
     "manifest": {
-      "params": {
-        "stake_holders": [],
-        "inflation": {
-          "automatic_enabled": false,
-          "yearly_amount": "365000000",
-          "mint_denom": "umfx"
-        }
-      }
+      "params": {}
     },
     "mint": {
       "minter": {
-        "inflation": "0.000000000000000000",
+        "inflation": "0.130000000000000000",
         "annual_provisions": "0.000000000000000000"
       },
       "params": {
         "mint_denom": "umfx",
-        "inflation_rate_change": "0.000000000000000000",
-        "inflation_max": "0.000000000000000000",
-        "inflation_min": "0.000000000000000000",
+        "inflation_rate_change": "0.130000000000000000",
+        "inflation_max": "0.200000000000000000",
+        "inflation_min": "0.070000000000000000",
         "goal_bonded": "0.670000000000000000",
         "blocks_per_year": "6311520"
       }
@@ -1175,18 +1201,18 @@
     "poa": {
       "params": {
         "admins": [
-          "manifest16wp0k3zkl4zpq0zpnf25yyge2xpf7yy8y5gykm"
+          "manifest10d07y265gmmuvt4z0w9aw880jnsr700jmq3jzm"
         ],
         "allow_validator_self_exit": true
       }
     },
     "slashing": {
       "params": {
-        "signed_blocks_window": "10000",
-        "min_signed_per_window": "0.050000000000000000",
-        "downtime_jail_duration": "60s",
-        "slash_fraction_double_sign": "1.000000000000000000",
-        "slash_fraction_downtime": "0.000000000000000000"
+        "signed_blocks_window": "100",
+        "min_signed_per_window": "0.500000000000000000",
+        "downtime_jail_duration": "600s",
+        "slash_fraction_double_sign": "0.050000000000000000",
+        "slash_fraction_downtime": "0.010000000000000000"
       },
       "signing_infos": [],
       "missed_blocks": []
@@ -1254,7 +1280,7 @@
         "app": "0"
       },
       "abci": {
-        "vote_extensions_enable_height": "1"
+        "vote_extensions_enable_height": "0"
       }
     }
   }
