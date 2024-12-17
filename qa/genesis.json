@@ -1,0 +1,2426 @@
+{
+  "app_name": "manifestd",
+  "app_version": "v0.0.1-alpha.18",
+  "genesis_time": "2024-11-05T00:25:43.262400051Z",
+  "chain_id": "manifest-ledger-qa",
+  "initial_height": 1,
+  "app_hash": null,
+  "app_state": {
+    "07-tendermint": null,
+    "auth": {
+      "params": {
+        "max_memo_characters": "512",
+        "tx_sig_limit": "7",
+        "tx_size_cost_per_byte": "10",
+        "sig_verify_cost_ed25519": "590",
+        "sig_verify_cost_secp256k1": "1000"
+      },
+      "accounts": [
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "manifest199z8jjmsv2mx7emjkxck0uuel2xp03dy0pl2ry",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "manifest17m0sxmcr5lf8jhekamk96q9nurj95q3sctuvwa",
+          "pub_key": null,
+          "account_number": "1",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "manifest1yqx2gwln6zdeg6qf85lesppcqaapmv2jev5dht",
+          "pub_key": null,
+          "account_number": "2",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "manifest186vwccv8ughyhqu52yuaav9vhgmr2glkvryjtw",
+          "pub_key": null,
+          "account_number": "3",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "manifest1uce38slqwj5fcs0pjy9np5evgheclchfxqr88x",
+          "pub_key": null,
+          "account_number": "4",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "manifest1hj5fveer5cjtn4wd6wstzugjfdxzl0xp8ws9ct",
+          "pub_key": null,
+          "account_number": "5",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "manifest1efd63aw40lxf3n4mhf7dzhjkr453axurm6rp3z",
+          "pub_key": null,
+          "account_number": "6",
+          "sequence": "0"
+        }
+      ]
+    },
+    "authz": {
+      "authorization": []
+    },
+    "bank": {
+      "params": {
+        "send_enabled": [],
+        "default_send_enabled": true
+      },
+      "balances": [
+        {
+          "address": "manifest1yqx2gwln6zdeg6qf85lesppcqaapmv2jev5dht",
+          "coins": [
+            {
+              "denom": "upoa",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "manifest199z8jjmsv2mx7emjkxck0uuel2xp03dy0pl2ry",
+          "coins": [
+            {
+              "denom": "upoa",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "manifest186vwccv8ughyhqu52yuaav9vhgmr2glkvryjtw",
+          "coins": [
+            {
+              "denom": "upoa",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "manifest1hj5fveer5cjtn4wd6wstzugjfdxzl0xp8ws9ct",
+          "coins": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uaaa",
+              "amount": "123123123000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uabus",
+              "amount": "100000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ubitch",
+              "amount": "1000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ublerg",
+              "amount": "1000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ucats",
+              "amount": "1000000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ucoral",
+              "amount": "1000000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ucures",
+              "amount": "1000000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/udblt",
+              "amount": "1000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ufocal",
+              "amount": "1000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uframe",
+              "amount": "1000000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ugcatt",
+              "amount": "1000000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ugrey",
+              "amount": "1000000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ugwatt",
+              "amount": "999999999999999983222784000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uhive",
+              "amount": "1000000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uindis",
+              "amount": "1000000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ulendx",
+              "amount": "1000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/umega",
+              "amount": "100000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upgsql",
+              "amount": "1000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwroo",
+              "amount": "1000000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwroz",
+              "amount": "1000000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrze",
+              "amount": "1000000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzf",
+              "amount": "1000000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzn",
+              "amount": "1000000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzo",
+              "amount": "1000000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzr",
+              "amount": "1000000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzs",
+              "amount": "10000000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzt",
+              "amount": "1000000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzv",
+              "amount": "10000000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzx",
+              "amount": "1000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzz",
+              "amount": "1000000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usola",
+              "amount": "1000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usolb",
+              "amount": "1000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usolc",
+              "amount": "1000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usold",
+              "amount": "1000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usole",
+              "amount": "1000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uspdt",
+              "amount": "1000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usunsw",
+              "amount": "1000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/utfaaa",
+              "amount": "1000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/utrace",
+              "amount": "1000000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/utst",
+              "amount": "10000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uwind",
+              "amount": "999999999999999983222784000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uwmvt",
+              "amount": "1000000000000000000"
+            },
+            {
+              "denom": "umfx",
+              "amount": "123427004064738067000"
+            }
+          ]
+        },
+        {
+          "address": "manifest1efd63aw40lxf3n4mhf7dzhjkr453axurm6rp3z",
+          "coins": [
+            {
+              "denom": "umfx",
+              "amount": "1000000000"
+            },
+            {
+              "denom": "utest",
+              "amount": "1000"
+            }
+          ]
+        },
+        {
+          "address": "manifest1uce38slqwj5fcs0pjy9np5evgheclchfxqr88x",
+          "coins": [
+            {
+              "denom": "upoa",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "manifest17m0sxmcr5lf8jhekamk96q9nurj95q3sctuvwa",
+          "coins": [
+            {
+              "denom": "upoa",
+              "amount": "1000000"
+            }
+          ]
+        }
+      ],
+      "supply": [
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uaaa",
+          "amount": "123123123000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uabus",
+          "amount": "100000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ubitch",
+          "amount": "1000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ublerg",
+          "amount": "1000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ucats",
+          "amount": "1000000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ucoral",
+          "amount": "1000000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ucures",
+          "amount": "1000000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/udblt",
+          "amount": "1000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ufocal",
+          "amount": "1000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uframe",
+          "amount": "1000000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ugcatt",
+          "amount": "1000000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ugrey",
+          "amount": "1000000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ugwatt",
+          "amount": "999999999999999983222784000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uhive",
+          "amount": "1000000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uindis",
+          "amount": "1000000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ulendx",
+          "amount": "1000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/umega",
+          "amount": "100000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upgsql",
+          "amount": "1000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwroo",
+          "amount": "1000000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwroz",
+          "amount": "1000000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrze",
+          "amount": "1000000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzf",
+          "amount": "1000000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzn",
+          "amount": "1000000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzo",
+          "amount": "1000000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzr",
+          "amount": "1000000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzs",
+          "amount": "10000000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzt",
+          "amount": "1000000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzv",
+          "amount": "10000000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzx",
+          "amount": "1000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzz",
+          "amount": "1000000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usola",
+          "amount": "1000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usolb",
+          "amount": "1000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usolc",
+          "amount": "1000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usold",
+          "amount": "1000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usole",
+          "amount": "1000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uspdt",
+          "amount": "1000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usunsw",
+          "amount": "1000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/utfaaa",
+          "amount": "1000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/utrace",
+          "amount": "1000000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/utst",
+          "amount": "10000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uwind",
+          "amount": "999999999999999983222784000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uwmvt",
+          "amount": "1000000000000000000"
+        },
+        {
+          "denom": "umfx",
+          "amount": "123427004065738067000"
+        },
+        {
+          "denom": "upoa",
+          "amount": "5000000"
+        },
+        {
+          "denom": "utest",
+          "amount": "1000"
+        }
+      ],
+      "denom_metadata": [
+        {
+          "description": "Blergestan National",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ublerg",
+              "exponent": 0,
+              "aliases": [
+                "BLERG"
+              ]
+            },
+            {
+              "denom": "BLERG",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ublerg"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ublerg",
+          "display": "BLERG",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ublerg",
+          "symbol": "BLERG",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "TF RWA AAA",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/utfaaa",
+              "exponent": 0,
+              "aliases": [
+                "TFAAA"
+              ]
+            },
+            {
+              "denom": "TFAAA",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/utfaaa"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/utfaaa",
+          "display": "TFAAA",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/utfaaa",
+          "symbol": "TFAAA",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "FocalDAO",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ufocal",
+              "exponent": 0,
+              "aliases": [
+                "FOCAL"
+              ]
+            },
+            {
+              "denom": "FOCAL",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ufocal"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ufocal",
+          "display": "FOCAL",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ufocal",
+          "symbol": "FOCAL",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "CoralCreditRatings",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ucoral",
+              "exponent": 0,
+              "aliases": [
+                "CORAL"
+              ]
+            },
+            {
+              "denom": "CORAL",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ucoral"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ucoral",
+          "display": "CORAL",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ucoral",
+          "symbol": "CORAL",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "IndisputableLabsTRRX",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uindis",
+              "exponent": 0,
+              "aliases": [
+                "INDIS"
+              ]
+            },
+            {
+              "denom": "INDIS",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uindis"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uindis",
+          "display": "INDIS",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uindis",
+          "symbol": "INDIS",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "Cures Collective",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ucures",
+              "exponent": 0,
+              "aliases": [
+                "CURES"
+              ]
+            },
+            {
+              "denom": "CURES",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ucures"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ucures",
+          "display": "CURES",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ucures",
+          "symbol": "CURES",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "Power Token 10",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwroz",
+              "exponent": 0,
+              "aliases": [
+                "PWROZ"
+              ]
+            },
+            {
+              "denom": "PWROZ",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwroz"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwroz",
+          "display": "PWROZ",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwroz",
+          "symbol": "PWROZ",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "Power Token 09",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzn",
+              "exponent": 0,
+              "aliases": [
+                "PWRZN"
+              ]
+            },
+            {
+              "denom": "PWRZN",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzn"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzn",
+          "display": "PWRZN",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzn",
+          "symbol": "PWRZN",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "Power Token 08",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrze",
+              "exponent": 0,
+              "aliases": [
+                "PWRZE"
+              ]
+            },
+            {
+              "denom": "PWRZE",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrze"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrze",
+          "display": "PWRZE",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrze",
+          "symbol": "PWRZE",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "Power Token 07",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzs",
+              "exponent": 0,
+              "aliases": [
+                "PWRZS"
+              ]
+            },
+            {
+              "denom": "PWRZS",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzs"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzs",
+          "display": "PWRZS",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzs",
+          "symbol": "PWRZS",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "Power Token 06",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzx",
+              "exponent": 0,
+              "aliases": [
+                "PWRZX"
+              ]
+            },
+            {
+              "denom": "PWRZX",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzx"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzx",
+          "display": "PWRZX",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzx",
+          "symbol": "PWRZX",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "HWE Solar Output E",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usole",
+              "exponent": 0,
+              "aliases": [
+                "SOLE"
+              ]
+            },
+            {
+              "denom": "SOLE",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usole"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usole",
+          "display": "SOLE",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usole",
+          "symbol": "SOLE",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "Power Token 05",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzv",
+              "exponent": 0,
+              "aliases": [
+                "PWRZV"
+              ]
+            },
+            {
+              "denom": "PWRZV",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzv"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzv",
+          "display": "PWRZV",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzv",
+          "symbol": "PWRZV",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "Power Token 00",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzz",
+              "exponent": 0,
+              "aliases": [
+                "PWRZZ"
+              ]
+            },
+            {
+              "denom": "PWRZZ",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzz"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzz",
+          "display": "PWRZZ",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzz",
+          "symbol": "PWRZZ",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "Power Token 03",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzf",
+              "exponent": 0,
+              "aliases": [
+                "PWRZF"
+              ]
+            },
+            {
+              "denom": "PWRZF",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzf"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzf",
+          "display": "PWRZF",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzf",
+          "symbol": "PWRZF",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "Power Token 03",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzr",
+              "exponent": 0,
+              "aliases": [
+                "PWRZR"
+              ]
+            },
+            {
+              "denom": "PWRZR",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzr"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzr",
+          "display": "PWRZR",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzr",
+          "symbol": "PWRZR",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "TracerRoundProtocol",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/utrace",
+              "exponent": 0,
+              "aliases": [
+                "TRACE"
+              ]
+            },
+            {
+              "denom": "TRACE",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/utrace"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/utrace",
+          "display": "TRACE",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/utrace",
+          "symbol": "TRACE",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "Hive Mind Token",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uhive",
+              "exponent": 0,
+              "aliases": [
+                "HIVE"
+              ]
+            },
+            {
+              "denom": "HIVE",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uhive"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uhive",
+          "display": "HIVE",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uhive",
+          "symbol": "HIVE",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "CATS",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ucats",
+              "exponent": 0,
+              "aliases": [
+                "CATS"
+              ]
+            },
+            {
+              "denom": "CATS",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ucats"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ucats",
+          "display": "CATS",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ucats",
+          "symbol": "CATS",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "Power Token 02",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzt",
+              "exponent": 0,
+              "aliases": [
+                "PWRZT"
+              ]
+            },
+            {
+              "denom": "PWRZT",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzt"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzt",
+          "display": "PWRZT",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzt",
+          "symbol": "PWRZT",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "HWE Solar Output D",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usold",
+              "exponent": 0,
+              "aliases": [
+                "SOLD"
+              ]
+            },
+            {
+              "denom": "SOLD",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usold"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usold",
+          "display": "SOLD",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usold",
+          "symbol": "SOLD",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "Power Token 01",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzo",
+              "exponent": 0,
+              "aliases": [
+                "PWRZO"
+              ]
+            },
+            {
+              "denom": "PWRZO",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzo"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzo",
+          "display": "PWRZO",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzo",
+          "symbol": "PWRZO",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "Power Token 00",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwroo",
+              "exponent": 0,
+              "aliases": [
+                "PWROO"
+              ]
+            },
+            {
+              "denom": "PWROO",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwroo"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwroo",
+          "display": "PWROO",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwroo",
+          "symbol": "PWROO",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "HWE Solar Output C",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usolc",
+              "exponent": 0,
+              "aliases": [
+                "SOLC"
+              ]
+            },
+            {
+              "denom": "SOLC",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usolc"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usolc",
+          "display": "SOLC",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usolc",
+          "symbol": "SOLC",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "HWE Solar Output B",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usolb",
+              "exponent": 0,
+              "aliases": [
+                "SOLB"
+              ]
+            },
+            {
+              "denom": "SOLB",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usolb"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usolb",
+          "display": "SOLB",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usolb",
+          "symbol": "SOLB",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "HWE Solar Output A",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usola",
+              "exponent": 0,
+              "aliases": [
+                "SOLA"
+              ]
+            },
+            {
+              "denom": "SOLA",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usola"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usola",
+          "display": "SOLA",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usola",
+          "symbol": "SOLA",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "Sunfire Swaps",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usunsw",
+              "exponent": 0,
+              "aliases": [
+                "SUNSW"
+              ]
+            },
+            {
+              "denom": "SUNSW",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usunsw"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usunsw",
+          "display": "SUNSW",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usunsw",
+          "symbol": "SUNSW",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "Wind Energy Swaps",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uwind",
+              "exponent": 0,
+              "aliases": [
+                "WIND"
+              ]
+            },
+            {
+              "denom": "WIND",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uwind"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uwind",
+          "display": "WIND",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uwind",
+          "symbol": "WIND",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "GigaWatt Grid Logis",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ugwatt",
+              "exponent": 0,
+              "aliases": [
+                "GWATT"
+              ]
+            },
+            {
+              "denom": "GWATT",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ugwatt"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ugwatt",
+          "display": "GWATT",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ugwatt",
+          "symbol": "GWATT",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "GCA Trust",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ugcatt",
+              "exponent": 0,
+              "aliases": [
+                "GCATT"
+              ]
+            },
+            {
+              "denom": "GCATT",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ugcatt"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ugcatt",
+          "display": "GCATT",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ugcatt",
+          "symbol": "GCATT",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "Lend x Protocol",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ulendx",
+              "exponent": 0,
+              "aliases": [
+                "LENDX"
+              ]
+            },
+            {
+              "denom": "LENDX",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ulendx"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ulendx",
+          "display": "LENDX",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ulendx",
+          "symbol": "LENDX",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "When Moon Valley",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uwmvt",
+              "exponent": 0,
+              "aliases": [
+                "WMVT"
+              ]
+            },
+            {
+              "denom": "WMVT",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uwmvt"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uwmvt",
+          "display": "WMVT",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uwmvt",
+          "symbol": "WMVT",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "DBL Treasury",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/udblt",
+              "exponent": 0,
+              "aliases": [
+                "DBLT"
+              ]
+            },
+            {
+              "denom": "DBLT",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/udblt"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/udblt",
+          "display": "DBLT",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/udblt",
+          "symbol": "DBLT",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "DeFramix Utility",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uframe",
+              "exponent": 0,
+              "aliases": [
+                "FRAME"
+              ]
+            },
+            {
+              "denom": "FRAME",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uframe"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uframe",
+          "display": "FRAME",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uframe",
+          "symbol": "FRAME",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "TheBitchToken",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ubitch",
+              "exponent": 0,
+              "aliases": [
+                "BITCH"
+              ]
+            },
+            {
+              "denom": "BITCH",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ubitch"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ubitch",
+          "display": "BITCH",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ubitch",
+          "symbol": "BITCH",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "MegaBitch",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/umega",
+              "exponent": 0,
+              "aliases": [
+                "MEGA"
+              ]
+            },
+            {
+              "denom": "MEGA",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/umega"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/umega",
+          "display": "MEGA",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/umega",
+          "symbol": "MEGA",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "The Greys",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ugrey",
+              "exponent": 0,
+              "aliases": [
+                "GREY"
+              ]
+            },
+            {
+              "denom": "GREY",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ugrey"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ugrey",
+          "display": "GREY",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ugrey",
+          "symbol": "GREY",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "asdasdasd",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uaaa",
+              "exponent": 0,
+              "aliases": [
+                "AAA"
+              ]
+            },
+            {
+              "denom": "AAA",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uaaa"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uaaa",
+          "display": "AAA",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uaaa",
+          "symbol": "AAA",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "dPostgreSQL",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upgsql",
+              "exponent": 0,
+              "aliases": [
+                "PGSQL"
+              ]
+            },
+            {
+              "denom": "PGSQL",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upgsql"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upgsql",
+          "display": "PGSQL",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upgsql",
+          "symbol": "PGSQL",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "Arebus Gas Token",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uabus",
+              "exponent": 0,
+              "aliases": [
+                "ABUS"
+              ]
+            },
+            {
+              "denom": "ABUS",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uabus"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uabus",
+          "display": "ABUS",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uabus",
+          "symbol": "ABUS",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "SpaceData",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uspdt",
+              "exponent": 0,
+              "aliases": [
+                "SPDT"
+              ]
+            },
+            {
+              "denom": "SPDT",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uspdt"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uspdt",
+          "display": "SPDT",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uspdt",
+          "symbol": "SPDT",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "Test",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/utst",
+              "exponent": 0,
+              "aliases": [
+                "TST"
+              ]
+            },
+            {
+              "denom": "TST",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/utst"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/utst",
+          "display": "TST",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/utst",
+          "symbol": "TST",
+          "uri": "",
+          "uri_hash": ""
+        }
+      ],
+      "send_enabled": []
+    },
+    "capability": {
+      "index": "1",
+      "owners": []
+    },
+    "circuit": {
+      "account_permissions": [],
+      "disabled_type_urls": []
+    },
+    "consensus": null,
+    "crisis": {
+      "constant_fee": {
+        "denom": "umfx",
+        "amount": "100000000"
+      }
+    },
+    "distribution": {
+      "params": {
+        "community_tax": "0.000000000000000000",
+        "base_proposer_reward": "0.000000000000000000",
+        "bonus_proposer_reward": "0.000000000000000000",
+        "withdraw_addr_enabled": true
+      },
+      "fee_pool": {
+        "community_pool": []
+      },
+      "delegator_withdraw_infos": [],
+      "previous_proposer": "",
+      "outstanding_rewards": [],
+      "validator_accumulated_commissions": [],
+      "validator_historical_rewards": [],
+      "validator_current_rewards": [],
+      "delegator_starting_infos": [],
+      "validator_slash_events": []
+    },
+    "evidence": {
+      "evidence": []
+    },
+    "feegrant": {
+      "allowances": [
+        {
+          "granter": "manifest1efd63aw40lxf3n4mhf7dzhjkr453axurm6rp3z",
+          "grantee": "manifest1hj5fveer5cjtn4wd6wstzugjfdxzl0xp8ws9ct",
+          "allowance": {
+            "@type": "/cosmos.feegrant.v1beta1.AllowedMsgAllowance",
+            "allowance": {
+              "@type": "/cosmos.feegrant.v1beta1.BasicAllowance",
+              "spend_limit": [],
+              "expiration": null
+            },
+            "allowed_messages": [
+              "/cosmos.bank.v1beta1.MsgSend"
+            ]
+          }
+        }
+      ]
+    },
+    "feeibc": {
+      "identified_fees": [],
+      "fee_enabled_channels": [],
+      "registered_payees": [],
+      "registered_counterparty_payees": [],
+      "forward_relayers": []
+    },
+    "genutil": {
+      "gen_txs": [
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "q-cell-03.alpha.manifest0.net",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.000000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "",
+                "validator_address": "manifestvaloper17m0sxmcr5lf8jhekamk96q9nurj95q3sytpcz0",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "/ZBkQAJ3IfaDZyDp4pauaekbqThAB9eIGjRqyTXCHwg="
+                },
+                "value": {
+                  "denom": "upoa",
+                  "amount": "1000000"
+                }
+              }
+            ],
+            "memo": "24cc2a6f6c693ee9d1f9e2132bb9d94827bfe359@72.15.248.247:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AkVS1Ws5tBcRQAIG7Fl820BRV8pj7FORFbhbMvAePumG"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "sIKFWuXXZLHiJSS0t1HoIHJtcL+tE1zbQuvyXL2WHLRVudpp87ZyvlnvC4xzcm6EqRAR4/EF17Sp6OTA8KYf9Q=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "q-cell-02.alpha.manifest0.net",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.000000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "",
+                "validator_address": "manifestvaloper199z8jjmsv2mx7emjkxck0uuel2xp03dynpz70k",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "J8E1+8bifQDf40I/nnR75oopWbtu4kX46kUbkzXpeKM="
+                },
+                "value": {
+                  "denom": "upoa",
+                  "amount": "1000000"
+                }
+              }
+            ],
+            "memo": "4c18575f5e146b05da7ef8c2822872bfd28003a9@72.15.248.246:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AzrsHb0K3OwhnFnWwcbIK4TLRJ7ZAuU2unLU3xFGjL/p"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "8nd3WYNNhYWX7XC0+BtjQU0AwMQNgy4SdWpnaJp2fBs8Zljxn33D9hhO17P/8WopAOhpmk9JGVraXbD1f2JjEw=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "d-kvs-301.alpha.manifest0.net",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.000000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "",
+                "validator_address": "manifestvaloper1yqx2gwln6zdeg6qf85lesppcqaapmv2j9vfeme",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "tNz2Kx3VH4XF1rGs9OKrAGtmhtzKf+7B95l4JnmIB40="
+                },
+                "value": {
+                  "denom": "upoa",
+                  "amount": "1000000"
+                }
+              }
+            ],
+            "memo": "8d6dff421003c4fd80dad0be71c82f7ed6e7fca7@128.136.208.187:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "ApEv8JuttbbH53EsU8mpQ8JKA87W3yEcUtyFeX+aUQCj"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "rYtKvKsD4fwfLv6gNkzk2x908LsfXeM0saVWNDKcvdRntWFVloLIkgtwBlykpK7KFM7RakJYCIGy2vnGI71y1A=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "d-kvs-303.alpha.manifest0.net",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.000000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "",
+                "validator_address": "manifestvaloper1uce38slqwj5fcs0pjy9np5evgheclchf6q7nt5",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "8S5QMdBOuE3yYli0eYLtGJRiHov30mlxGXWs1+Xe4Ug="
+                },
+                "value": {
+                  "denom": "upoa",
+                  "amount": "1000000"
+                }
+              }
+            ],
+            "memo": "a1817b43317bff39f34ef58a1fa7582b02642b03@128.136.150.219:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "Au5EH3TQHI2J9N/Ct53Vs9xCcPHgY+jl9hieB8gC+qNL"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "G6YfYgNxMB5jQ0fJvdmcuT+HC8pc10RddiAb9SVHxLIcEOlXBkXbxipjfcOgXqoA8KQKcdpuWY34N1CQ4+0Kdw=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "d-kvs-302.alpha.manifest0.net",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.000000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "",
+                "validator_address": "manifestvaloper186vwccv8ughyhqu52yuaav9vhgmr2glksrex8u",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "UjUlmvTrWCfEh0ojqAey91DKsqk7j/El5sXRNNcU1Ws="
+                },
+                "value": {
+                  "denom": "upoa",
+                  "amount": "1000000"
+                }
+              }
+            ],
+            "memo": "c98b6af39a5a8660e9e5a5edf3a878bc1209cd6e@66.172.36.179:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A5KcwoiMRovQwMIRlE3j5ATGBb03N+lQSmQgpcMAwcCQ"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "mA7hOfVptyEzVPjXSjbRAKBWCylPopgfgqg3q/Pwcvod/hwuKLmVdFKpRJsPMMjpfGUi/TYzwd3j/SCwBNn3zw=="
+          ]
+        }
+      ]
+    },
+    "gov": {
+      "starting_proposal_id": "1",
+      "deposits": [],
+      "votes": [],
+      "proposals": [],
+      "deposit_params": null,
+      "voting_params": null,
+      "tally_params": null,
+      "params": {
+        "min_deposit": [
+          {
+            "denom": "umfx",
+            "amount": "100000000"
+          }
+        ],
+        "max_deposit_period": "259200s",
+        "voting_period": "259200s",
+        "quorum": "0.334000000000000000",
+        "threshold": "0.500000000000000000",
+        "veto_threshold": "0.334000000000000000",
+        "min_initial_deposit_ratio": "0.000000000000000000",
+        "proposal_cancel_ratio": "0.500000000000000000",
+        "proposal_cancel_dest": "",
+        "expedited_voting_period": "86400s",
+        "expedited_threshold": "0.667000000000000000",
+        "expedited_min_deposit": [
+          {
+            "denom": "umfx",
+            "amount": "250000000"
+          }
+        ],
+        "burn_vote_quorum": false,
+        "burn_proposal_deposit_prevote": false,
+        "burn_vote_veto": true,
+        "min_deposit_ratio": "0.100000000000000000"
+      },
+      "constitution": ""
+    },
+    "group": {
+      "group_seq": "1",
+      "groups": [
+        {
+          "id": "1",
+          "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj",
+          "metadata": "AQ==",
+          "version": "2",
+          "total_weight": "2",
+          "created_at": "2024-05-16T15:10:54.372190727Z"
+        }
+      ],
+      "group_members": [
+        {
+          "group_id": "1",
+          "member": {
+            "address": "manifest1hj5fveer5cjtn4wd6wstzugjfdxzl0xp8ws9ct",
+            "weight": "1",
+            "metadata": "user1",
+            "added_at": "2024-05-16T15:10:54.372190727Z"
+          }
+        },
+        {
+          "group_id": "1",
+          "member": {
+            "address": "manifest1efd63aw40lxf3n4mhf7dzhjkr453axurm6rp3z",
+            "weight": "1",
+            "metadata": "user2",
+            "added_at": "2024-05-16T15:10:54.372190727Z"
+          }
+        }
+      ],
+      "group_policy_seq": "1",
+      "group_policies": [
+        {
+          "address": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj",
+          "group_id": "1",
+          "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj",
+          "metadata": "AQ==",
+          "version": "2",
+          "decision_policy": {
+            "@type": "/cosmos.group.v1.ThresholdDecisionPolicy",
+            "threshold": "1",
+            "windows": {
+              "voting_period": "1800s",
+              "min_execution_period": "0s"
+            }
+          },
+          "created_at": "2024-05-16T15:10:54.372190727Z"
+        }
+      ],
+      "proposal_seq": "0",
+      "proposals": [],
+      "votes": []
+    },
+    "ibc": {
+      "client_genesis": {
+        "clients": [],
+        "clients_consensus": [],
+        "clients_metadata": [],
+        "params": {
+          "allowed_clients": [
+            "*"
+          ]
+        },
+        "create_localhost": false,
+        "next_client_sequence": "0"
+      },
+      "connection_genesis": {
+        "connections": [],
+        "client_connection_paths": [],
+        "next_connection_sequence": "0",
+        "params": {
+          "max_expected_time_per_block": "30000000000"
+        }
+      },
+      "channel_genesis": {
+        "channels": [],
+        "acknowledgements": [],
+        "commitments": [],
+        "receipts": [],
+        "send_sequences": [],
+        "recv_sequences": [],
+        "ack_sequences": [],
+        "next_channel_sequence": "0",
+        "params": {
+          "upgrade_timeout": {
+            "height": {
+              "revision_number": "0",
+              "revision_height": "0"
+            },
+            "timestamp": "600000000000"
+          }
+        }
+      }
+    },
+    "interchainaccounts": {
+      "controller_genesis_state": {
+        "active_channels": [],
+        "interchain_accounts": [],
+        "ports": [],
+        "params": {
+          "controller_enabled": true
+        }
+      },
+      "host_genesis_state": {
+        "active_channels": [],
+        "interchain_accounts": [],
+        "port": "icahost",
+        "params": {
+          "host_enabled": true,
+          "allow_messages": [
+            "*"
+          ]
+        }
+      }
+    },
+    "manifest": {},
+    "mint": {
+      "minter": {
+        "inflation": "0.000000000000000000",
+        "annual_provisions": "0.000000000000000000"
+      },
+      "params": {
+        "mint_denom": "notused",
+        "inflation_rate_change": "0.000000000000000000",
+        "inflation_max": "0.000000000000000000",
+        "inflation_min": "0.000000000000000000",
+        "goal_bonded": "0.670000000000000000",
+        "blocks_per_year": "6311520"
+      }
+    },
+    "params": null,
+    "poa": {
+      "vals": []
+    },
+    "slashing": {
+      "params": {
+        "signed_blocks_window": "10000",
+        "min_signed_per_window": "0.050000000000000000",
+        "downtime_jail_duration": "60s",
+        "slash_fraction_double_sign": "0.000000000000000000",
+        "slash_fraction_downtime": "0.000000000000000000"
+      },
+      "signing_infos": [],
+      "missed_blocks": []
+    },
+    "staking": {
+      "params": {
+        "unbonding_time": "1814400s",
+        "max_validators": 100,
+        "max_entries": 7,
+        "historical_entries": 10000,
+        "bond_denom": "upoa",
+        "min_commission_rate": "0.000000000000000000"
+      },
+      "last_total_power": "0",
+      "last_validator_powers": [],
+      "validators": [],
+      "delegations": [],
+      "unbonding_delegations": [],
+      "redelegations": [],
+      "exported": false
+    },
+    "tokenfactory": {
+      "params": {
+        "denom_creation_fee": [],
+        "denom_creation_gas_consume": 2000000
+      },
+      "factory_denoms": [
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ublerg",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/utfaaa",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ufocal",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ucoral",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uindis",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ucures",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwroz",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzn",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrze",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzs",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzx",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usole",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzv",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzz",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzf",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzr",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/utrace",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uhive",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ucats",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzt",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usold",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzo",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwroo",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usolc",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usolb",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usola",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usunsw",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uwind",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ugwatt",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ugcatt",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ulendx",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uwmvt",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/udblt",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uframe",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ubitch",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/umega",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ugrey",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uaaa",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upgsql",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uabus",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uspdt",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/utst",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        }
+      ]
+    },
+    "transfer": {
+      "port_id": "transfer",
+      "denom_traces": [],
+      "params": {
+        "send_enabled": true,
+        "receive_enabled": true
+      },
+      "total_escrowed": []
+    },
+    "upgrade": {},
+    "vesting": {}
+  },
+  "consensus": {
+    "params": {
+      "block": {
+        "max_bytes": "22020096",
+        "max_gas": "-1"
+      },
+      "evidence": {
+        "max_age_num_blocks": "100000",
+        "max_age_duration": "172800000000000",
+        "max_bytes": "1048576"
+      },
+      "validator": {
+        "pub_key_types": [
+          "ed25519"
+        ]
+      },
+      "version": {
+        "app": "0"
+      },
+      "abci": {
+        "vote_extensions_enable_height": "1"
+      }
+    }
+  }
+}
