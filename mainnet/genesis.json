@@ -1,0 +1,3722 @@
+{
+  "app_name": "manifestd",
+  "app_version": "v1.0.0",
+  "genesis_time": "2025-03-06T18:02:56.14007187Z",
+  "chain_id": "manifest-ledger-mainnet",
+  "initial_height": 1,
+  "app_hash": null,
+  "app_state": {
+    "07-tendermint": null,
+    "auth": {
+      "params": {
+        "max_memo_characters": "512",
+        "tx_sig_limit": "7",
+        "tx_size_cost_per_byte": "10",
+        "sig_verify_cost_ed25519": "590",
+        "sig_verify_cost_secp256k1": "1000"
+      },
+      "accounts": [
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "manifest1y2g78fu6x2ypv59jaeugx80pycrd5jm7kn740p",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "manifest194gjxxn32yy05tj42mateaycxnywn5ef5uwjd2",
+          "pub_key": null,
+          "account_number": "1",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "manifest1xdzl4jwtkgn0tv80kps0wx0yhcppsakcxaqtp8",
+          "pub_key": null,
+          "account_number": "2",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "manifest1dxwfsm3vpttp8eaupv3swms22k9qmt7ahva58p",
+          "pub_key": null,
+          "account_number": "3",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "manifest16weeju09nzre96ef40r0p34ggu2ddnfjr049tm",
+          "pub_key": null,
+          "account_number": "4",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "manifest1mpvj8m8eddc8m3wh84wnvr2vklmns28448h78g",
+          "pub_key": null,
+          "account_number": "5",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "manifest1h0vy8qttguy93ldq983n23zxtznlfhue7n59xn",
+          "pub_key": null,
+          "account_number": "6",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "manifest1d2x48gz7mzl2lysqm9rrmzezhxfa3xarqylqfs",
+          "pub_key": null,
+          "account_number": "7",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "manifest1hyge0uunt3h8nj0xcc69976gtzc4yvssckp4f9",
+          "pub_key": null,
+          "account_number": "8",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "manifest19k8cd926pst4wfhutv23zq8yef7j2uzjjjxmed",
+          "pub_key": null,
+          "account_number": "9",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "manifest15dkj8jyk9gcqlf0u7m37t6x77nlyx572pzs5jz",
+          "pub_key": null,
+          "account_number": "10",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "manifest1ernh2phcx3lhyc4ktx450vnn8jaf6se4d2ant3",
+          "pub_key": null,
+          "account_number": "11",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "manifest12msyucsyulqxpe65aykcuphx5f37xzgf6xunxt",
+          "pub_key": null,
+          "account_number": "12",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "manifest14alzf9ywl3j7gqd84e85sqetljpyz6qasc2xny",
+          "pub_key": null,
+          "account_number": "13",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "manifest1q4r30zwgjduutd52f0cay9wkuek06dfvuq5zf8",
+          "pub_key": null,
+          "account_number": "14",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "manifest14qdfguf5t6qqrhun74yge5sgepy4frw4kxacku",
+          "pub_key": null,
+          "account_number": "15",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "manifest14paj6zhtlnrwejv7k66gks7etavcfkx6q3a57h",
+          "pub_key": null,
+          "account_number": "16",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "manifest1p8kx3x9mwyuszlwd4qhffjhl2s6u80vnznnl2h",
+          "pub_key": null,
+          "account_number": "17",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "manifest1xlxtf5gf2duwrqzfqqzpdsvduumq4wgxltesw4",
+          "pub_key": null,
+          "account_number": "18",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "manifest1h0t70u5rljl4e6je3ydtkruj6lqlr7rhmegcrr",
+          "pub_key": null,
+          "account_number": "19",
+          "sequence": "0"
+        }
+      ]
+    },
+    "authz": {
+      "authorization": []
+    },
+    "bank": {
+      "params": {
+        "send_enabled": [],
+        "default_send_enabled": true
+      },
+      "balances": [
+        {
+          "address": "manifest1q4r30zwgjduutd52f0cay9wkuek06dfvuq5zf8",
+          "coins": [
+            {
+              "denom": "upoa",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "manifest1p8kx3x9mwyuszlwd4qhffjhl2s6u80vnznnl2h",
+          "coins": [
+            {
+              "denom": "upoa",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "manifest1y2g78fu6x2ypv59jaeugx80pycrd5jm7kn740p",
+          "coins": [
+            {
+              "denom": "upoa",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "manifest194gjxxn32yy05tj42mateaycxnywn5ef5uwjd2",
+          "coins": [
+            {
+              "denom": "upoa",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "manifest19k8cd926pst4wfhutv23zq8yef7j2uzjjjxmed",
+          "coins": [
+            {
+              "denom": "upoa",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "manifest1xdzl4jwtkgn0tv80kps0wx0yhcppsakcxaqtp8",
+          "coins": [
+            {
+              "denom": "upoa",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "manifest1xlxtf5gf2duwrqzfqqzpdsvduumq4wgxltesw4",
+          "coins": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uaaa",
+              "amount": "123123123000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uabus",
+              "amount": "100000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uapmaa",
+              "amount": "1000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ubitch",
+              "amount": "1000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ublerg",
+              "amount": "1000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ucats",
+              "amount": "1000000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ucncro",
+              "amount": "1000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ucoral",
+              "amount": "1000000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ucures",
+              "amount": "1000000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/udblt",
+              "amount": "1000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/udoom",
+              "amount": "1000000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ufocal",
+              "amount": "1000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uframe",
+              "amount": "1000000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ugcatt",
+              "amount": "1000000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ugrey",
+              "amount": "1000000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ugwatt",
+              "amount": "999999999999999983222784000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uhive",
+              "amount": "1000000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uindis",
+              "amount": "1000000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ulendx",
+              "amount": "1000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/umega",
+              "amount": "100000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upgsql",
+              "amount": "1000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uprrnr",
+              "amount": "1000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwroo",
+              "amount": "1000000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrot",
+              "amount": "3000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwroz",
+              "amount": "1000000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrze",
+              "amount": "1000000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzf",
+              "amount": "1000000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzn",
+              "amount": "1000000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzo",
+              "amount": "1000000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzr",
+              "amount": "1000000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzs",
+              "amount": "10000000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzt",
+              "amount": "1000000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzv",
+              "amount": "10000000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzx",
+              "amount": "1000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzz",
+              "amount": "1000000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usola",
+              "amount": "1000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usolb",
+              "amount": "1000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usolc",
+              "amount": "1000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usold",
+              "amount": "1000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usole",
+              "amount": "1000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uspdt",
+              "amount": "1000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ussmgt",
+              "amount": "1000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usunsw",
+              "amount": "1000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/utfaaa",
+              "amount": "1000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/utrace",
+              "amount": "1000000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/utst",
+              "amount": "10000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uwind",
+              "amount": "999999999999999983222784000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uwmvt",
+              "amount": "1000000000000000000"
+            },
+            {
+              "denom": "umfx",
+              "amount": "133809045698343049000"
+            }
+          ]
+        },
+        {
+          "address": "manifest12msyucsyulqxpe65aykcuphx5f37xzgf6xunxt",
+          "coins": [
+            {
+              "denom": "upoa",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "manifest1dxwfsm3vpttp8eaupv3swms22k9qmt7ahva58p",
+          "coins": [
+            {
+              "denom": "upoa",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "manifest1d2x48gz7mzl2lysqm9rrmzezhxfa3xarqylqfs",
+          "coins": [
+            {
+              "denom": "upoa",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "manifest15dkj8jyk9gcqlf0u7m37t6x77nlyx572pzs5jz",
+          "coins": [
+            {
+              "denom": "upoa",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "manifest14qdfguf5t6qqrhun74yge5sgepy4frw4kxacku",
+          "coins": [
+            {
+              "denom": "upoa",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "manifest14paj6zhtlnrwejv7k66gks7etavcfkx6q3a57h",
+          "coins": [
+            {
+              "denom": "upoa",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "manifest14alzf9ywl3j7gqd84e85sqetljpyz6qasc2xny",
+          "coins": [
+            {
+              "denom": "upoa",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "manifest1hyge0uunt3h8nj0xcc69976gtzc4yvssckp4f9",
+          "coins": [
+            {
+              "denom": "upoa",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "manifest1h0t70u5rljl4e6je3ydtkruj6lqlr7rhmegcrr",
+          "coins": [
+            {
+              "denom": "umfx",
+              "amount": "1000000000"
+            }
+          ]
+        },
+        {
+          "address": "manifest1h0vy8qttguy93ldq983n23zxtznlfhue7n59xn",
+          "coins": [
+            {
+              "denom": "upoa",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "manifest1ernh2phcx3lhyc4ktx450vnn8jaf6se4d2ant3",
+          "coins": [
+            {
+              "denom": "upoa",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "manifest16weeju09nzre96ef40r0p34ggu2ddnfjr049tm",
+          "coins": [
+            {
+              "denom": "upoa",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "manifest1mpvj8m8eddc8m3wh84wnvr2vklmns28448h78g",
+          "coins": [
+            {
+              "denom": "upoa",
+              "amount": "1000000"
+            }
+          ]
+        }
+      ],
+      "supply": [
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uaaa",
+          "amount": "123123123000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uabus",
+          "amount": "100000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uapmaa",
+          "amount": "1000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ubitch",
+          "amount": "1000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ublerg",
+          "amount": "1000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ucats",
+          "amount": "1000000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ucncro",
+          "amount": "1000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ucoral",
+          "amount": "1000000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ucures",
+          "amount": "1000000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/udblt",
+          "amount": "1000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/udoom",
+          "amount": "1000000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ufocal",
+          "amount": "1000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uframe",
+          "amount": "1000000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ugcatt",
+          "amount": "1000000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ugrey",
+          "amount": "1000000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ugwatt",
+          "amount": "999999999999999983222784000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uhive",
+          "amount": "1000000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uindis",
+          "amount": "1000000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ulendx",
+          "amount": "1000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/umega",
+          "amount": "100000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upgsql",
+          "amount": "1000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uprrnr",
+          "amount": "1000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwroo",
+          "amount": "1000000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrot",
+          "amount": "3000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwroz",
+          "amount": "1000000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrze",
+          "amount": "1000000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzf",
+          "amount": "1000000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzn",
+          "amount": "1000000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzo",
+          "amount": "1000000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzr",
+          "amount": "1000000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzs",
+          "amount": "10000000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzt",
+          "amount": "1000000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzv",
+          "amount": "10000000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzx",
+          "amount": "1000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzz",
+          "amount": "1000000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usola",
+          "amount": "1000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usolb",
+          "amount": "1000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usolc",
+          "amount": "1000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usold",
+          "amount": "1000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usole",
+          "amount": "1000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uspdt",
+          "amount": "1000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ussmgt",
+          "amount": "1000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usunsw",
+          "amount": "1000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/utfaaa",
+          "amount": "1000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/utrace",
+          "amount": "1000000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/utst",
+          "amount": "10000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uwind",
+          "amount": "999999999999999983222784000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uwmvt",
+          "amount": "1000000000000000000"
+        },
+        {
+          "denom": "umfx",
+          "amount": "133809045699343049000"
+        },
+        {
+          "denom": "upoa",
+          "amount": "18000000"
+        }
+      ],
+      "denom_metadata": [
+        {
+          "description": "CancerCureS001",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ucncro",
+              "exponent": 0,
+              "aliases": [
+                "CNCRO"
+              ]
+            },
+            {
+              "denom": "CNCRO",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ucncro"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ucncro",
+          "display": "CNCRO",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ucncro",
+          "symbol": "CNCRO",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "ProjectRedRainNiner",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uprrnr",
+              "exponent": 0,
+              "aliases": [
+                "PRRNR"
+              ]
+            },
+            {
+              "denom": "PRRNR",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uprrnr"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uprrnr",
+          "display": "PRRNR",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uprrnr",
+          "symbol": "PRRNR",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "SilverSpringsManage",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ussmgt",
+              "exponent": 0,
+              "aliases": [
+                "SSMGT"
+              ]
+            },
+            {
+              "denom": "SSMGT",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ussmgt"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ussmgt",
+          "display": "SSMGT",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ussmgt",
+          "symbol": "SSMGT",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "Apocalypse Network",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/udoom",
+              "exponent": 0,
+              "aliases": [
+                "DOOM"
+              ]
+            },
+            {
+              "denom": "DOOM",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/udoom"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/udoom",
+          "display": "DOOM",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/udoom",
+          "symbol": "DOOM",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "Power Token 12",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrot",
+              "exponent": 0,
+              "aliases": [
+                "PWROT"
+              ]
+            },
+            {
+              "denom": "PWROT",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrot"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrot",
+          "display": "PWROT",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrot",
+          "symbol": "PWROT",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "APM AA RWA",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uapmaa",
+              "exponent": 0,
+              "aliases": [
+                "APMAA"
+              ]
+            },
+            {
+              "denom": "APMAA",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uapmaa"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uapmaa",
+          "display": "APMAA",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uapmaa",
+          "symbol": "APMAA",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "Blergestan National",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ublerg",
+              "exponent": 0,
+              "aliases": [
+                "BLERG"
+              ]
+            },
+            {
+              "denom": "BLERG",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ublerg"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ublerg",
+          "display": "BLERG",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ublerg",
+          "symbol": "BLERG",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "TF RWA AAA",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/utfaaa",
+              "exponent": 0,
+              "aliases": [
+                "TFAAA"
+              ]
+            },
+            {
+              "denom": "TFAAA",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/utfaaa"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/utfaaa",
+          "display": "TFAAA",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/utfaaa",
+          "symbol": "TFAAA",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "FocalDAO",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ufocal",
+              "exponent": 0,
+              "aliases": [
+                "FOCAL"
+              ]
+            },
+            {
+              "denom": "FOCAL",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ufocal"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ufocal",
+          "display": "FOCAL",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ufocal",
+          "symbol": "FOCAL",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "CoralCreditRatings",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ucoral",
+              "exponent": 0,
+              "aliases": [
+                "CORAL"
+              ]
+            },
+            {
+              "denom": "CORAL",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ucoral"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ucoral",
+          "display": "CORAL",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ucoral",
+          "symbol": "CORAL",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "IndisputableLabsTRRX",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uindis",
+              "exponent": 0,
+              "aliases": [
+                "INDIS"
+              ]
+            },
+            {
+              "denom": "INDIS",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uindis"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uindis",
+          "display": "INDIS",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uindis",
+          "symbol": "INDIS",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "Cures Collective",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ucures",
+              "exponent": 0,
+              "aliases": [
+                "CURES"
+              ]
+            },
+            {
+              "denom": "CURES",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ucures"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ucures",
+          "display": "CURES",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ucures",
+          "symbol": "CURES",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "Power Token 10",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwroz",
+              "exponent": 0,
+              "aliases": [
+                "PWROZ"
+              ]
+            },
+            {
+              "denom": "PWROZ",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwroz"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwroz",
+          "display": "PWROZ",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwroz",
+          "symbol": "PWROZ",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "Power Token 09",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzn",
+              "exponent": 0,
+              "aliases": [
+                "PWRZN"
+              ]
+            },
+            {
+              "denom": "PWRZN",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzn"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzn",
+          "display": "PWRZN",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzn",
+          "symbol": "PWRZN",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "Power Token 08",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrze",
+              "exponent": 0,
+              "aliases": [
+                "PWRZE"
+              ]
+            },
+            {
+              "denom": "PWRZE",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrze"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrze",
+          "display": "PWRZE",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrze",
+          "symbol": "PWRZE",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "Power Token 07",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzs",
+              "exponent": 0,
+              "aliases": [
+                "PWRZS"
+              ]
+            },
+            {
+              "denom": "PWRZS",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzs"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzs",
+          "display": "PWRZS",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzs",
+          "symbol": "PWRZS",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "Power Token 06",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzx",
+              "exponent": 0,
+              "aliases": [
+                "PWRZX"
+              ]
+            },
+            {
+              "denom": "PWRZX",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzx"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzx",
+          "display": "PWRZX",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzx",
+          "symbol": "PWRZX",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "HWE Solar Output E",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usole",
+              "exponent": 0,
+              "aliases": [
+                "SOLE"
+              ]
+            },
+            {
+              "denom": "SOLE",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usole"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usole",
+          "display": "SOLE",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usole",
+          "symbol": "SOLE",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "Power Token 05",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzv",
+              "exponent": 0,
+              "aliases": [
+                "PWRZV"
+              ]
+            },
+            {
+              "denom": "PWRZV",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzv"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzv",
+          "display": "PWRZV",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzv",
+          "symbol": "PWRZV",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "Power Token 00",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzz",
+              "exponent": 0,
+              "aliases": [
+                "PWRZZ"
+              ]
+            },
+            {
+              "denom": "PWRZZ",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzz"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzz",
+          "display": "PWRZZ",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzz",
+          "symbol": "PWRZZ",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "Power Token 03",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzf",
+              "exponent": 0,
+              "aliases": [
+                "PWRZF"
+              ]
+            },
+            {
+              "denom": "PWRZF",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzf"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzf",
+          "display": "PWRZF",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzf",
+          "symbol": "PWRZF",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "Power Token 03",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzr",
+              "exponent": 0,
+              "aliases": [
+                "PWRZR"
+              ]
+            },
+            {
+              "denom": "PWRZR",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzr"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzr",
+          "display": "PWRZR",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzr",
+          "symbol": "PWRZR",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "TracerRoundProtocol",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/utrace",
+              "exponent": 0,
+              "aliases": [
+                "TRACE"
+              ]
+            },
+            {
+              "denom": "TRACE",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/utrace"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/utrace",
+          "display": "TRACE",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/utrace",
+          "symbol": "TRACE",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "Hive Mind Token",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uhive",
+              "exponent": 0,
+              "aliases": [
+                "HIVE"
+              ]
+            },
+            {
+              "denom": "HIVE",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uhive"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uhive",
+          "display": "HIVE",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uhive",
+          "symbol": "HIVE",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "CATS",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ucats",
+              "exponent": 0,
+              "aliases": [
+                "CATS"
+              ]
+            },
+            {
+              "denom": "CATS",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ucats"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ucats",
+          "display": "CATS",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ucats",
+          "symbol": "CATS",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "Power Token 02",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzt",
+              "exponent": 0,
+              "aliases": [
+                "PWRZT"
+              ]
+            },
+            {
+              "denom": "PWRZT",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzt"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzt",
+          "display": "PWRZT",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzt",
+          "symbol": "PWRZT",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "HWE Solar Output D",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usold",
+              "exponent": 0,
+              "aliases": [
+                "SOLD"
+              ]
+            },
+            {
+              "denom": "SOLD",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usold"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usold",
+          "display": "SOLD",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usold",
+          "symbol": "SOLD",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "Power Token 01",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzo",
+              "exponent": 0,
+              "aliases": [
+                "PWRZO"
+              ]
+            },
+            {
+              "denom": "PWRZO",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzo"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzo",
+          "display": "PWRZO",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzo",
+          "symbol": "PWRZO",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "Power Token 00",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwroo",
+              "exponent": 0,
+              "aliases": [
+                "PWROO"
+              ]
+            },
+            {
+              "denom": "PWROO",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwroo"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwroo",
+          "display": "PWROO",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwroo",
+          "symbol": "PWROO",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "HWE Solar Output C",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usolc",
+              "exponent": 0,
+              "aliases": [
+                "SOLC"
+              ]
+            },
+            {
+              "denom": "SOLC",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usolc"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usolc",
+          "display": "SOLC",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usolc",
+          "symbol": "SOLC",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "HWE Solar Output B",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usolb",
+              "exponent": 0,
+              "aliases": [
+                "SOLB"
+              ]
+            },
+            {
+              "denom": "SOLB",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usolb"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usolb",
+          "display": "SOLB",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usolb",
+          "symbol": "SOLB",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "HWE Solar Output A",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usola",
+              "exponent": 0,
+              "aliases": [
+                "SOLA"
+              ]
+            },
+            {
+              "denom": "SOLA",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usola"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usola",
+          "display": "SOLA",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usola",
+          "symbol": "SOLA",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "Sunfire Swaps",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usunsw",
+              "exponent": 0,
+              "aliases": [
+                "SUNSW"
+              ]
+            },
+            {
+              "denom": "SUNSW",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usunsw"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usunsw",
+          "display": "SUNSW",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usunsw",
+          "symbol": "SUNSW",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "Wind Energy Swaps",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uwind",
+              "exponent": 0,
+              "aliases": [
+                "WIND"
+              ]
+            },
+            {
+              "denom": "WIND",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uwind"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uwind",
+          "display": "WIND",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uwind",
+          "symbol": "WIND",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "GigaWatt Grid Logis",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ugwatt",
+              "exponent": 0,
+              "aliases": [
+                "GWATT"
+              ]
+            },
+            {
+              "denom": "GWATT",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ugwatt"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ugwatt",
+          "display": "GWATT",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ugwatt",
+          "symbol": "GWATT",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "GCA Trust",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ugcatt",
+              "exponent": 0,
+              "aliases": [
+                "GCATT"
+              ]
+            },
+            {
+              "denom": "GCATT",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ugcatt"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ugcatt",
+          "display": "GCATT",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ugcatt",
+          "symbol": "GCATT",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "Lend x Protocol",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ulendx",
+              "exponent": 0,
+              "aliases": [
+                "LENDX"
+              ]
+            },
+            {
+              "denom": "LENDX",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ulendx"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ulendx",
+          "display": "LENDX",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ulendx",
+          "symbol": "LENDX",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "When Moon Valley",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uwmvt",
+              "exponent": 0,
+              "aliases": [
+                "WMVT"
+              ]
+            },
+            {
+              "denom": "WMVT",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uwmvt"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uwmvt",
+          "display": "WMVT",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uwmvt",
+          "symbol": "WMVT",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "DBL Treasury",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/udblt",
+              "exponent": 0,
+              "aliases": [
+                "DBLT"
+              ]
+            },
+            {
+              "denom": "DBLT",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/udblt"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/udblt",
+          "display": "DBLT",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/udblt",
+          "symbol": "DBLT",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "DeFramix Utility",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uframe",
+              "exponent": 0,
+              "aliases": [
+                "FRAME"
+              ]
+            },
+            {
+              "denom": "FRAME",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uframe"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uframe",
+          "display": "FRAME",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uframe",
+          "symbol": "FRAME",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "TheBitchToken",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ubitch",
+              "exponent": 0,
+              "aliases": [
+                "BITCH"
+              ]
+            },
+            {
+              "denom": "BITCH",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ubitch"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ubitch",
+          "display": "BITCH",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ubitch",
+          "symbol": "BITCH",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "MegaBitch",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/umega",
+              "exponent": 0,
+              "aliases": [
+                "MEGA"
+              ]
+            },
+            {
+              "denom": "MEGA",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/umega"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/umega",
+          "display": "MEGA",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/umega",
+          "symbol": "MEGA",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "The Greys",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ugrey",
+              "exponent": 0,
+              "aliases": [
+                "GREY"
+              ]
+            },
+            {
+              "denom": "GREY",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ugrey"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ugrey",
+          "display": "GREY",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ugrey",
+          "symbol": "GREY",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "asdasdasd",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uaaa",
+              "exponent": 0,
+              "aliases": [
+                "AAA"
+              ]
+            },
+            {
+              "denom": "AAA",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uaaa"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uaaa",
+          "display": "AAA",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uaaa",
+          "symbol": "AAA",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "dPostgreSQL",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upgsql",
+              "exponent": 0,
+              "aliases": [
+                "PGSQL"
+              ]
+            },
+            {
+              "denom": "PGSQL",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upgsql"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upgsql",
+          "display": "PGSQL",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upgsql",
+          "symbol": "PGSQL",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "Arebus Gas Token",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uabus",
+              "exponent": 0,
+              "aliases": [
+                "ABUS"
+              ]
+            },
+            {
+              "denom": "ABUS",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uabus"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uabus",
+          "display": "ABUS",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uabus",
+          "symbol": "ABUS",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "SpaceData",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uspdt",
+              "exponent": 0,
+              "aliases": [
+                "SPDT"
+              ]
+            },
+            {
+              "denom": "SPDT",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uspdt"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uspdt",
+          "display": "SPDT",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uspdt",
+          "symbol": "SPDT",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "Test",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/utst",
+              "exponent": 0,
+              "aliases": [
+                "TST"
+              ]
+            },
+            {
+              "denom": "TST",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/utst"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/utst",
+          "display": "TST",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/utst",
+          "symbol": "TST",
+          "uri": "",
+          "uri_hash": ""
+        },
+        {
+          "description": "The Manifest Network Token",
+          "denom_units": [
+            {
+              "denom": "umfx",
+              "exponent": 0,
+              "aliases": []
+            },
+            {
+              "denom": "MFX",
+              "exponent": 6,
+              "aliases": []
+            }
+          ],
+          "base": "umfx",
+          "display": "MFX",
+          "name": "Manifest Network Token",
+          "symbol": "MFX",
+          "uri": "",
+          "uri_hash": ""
+        }
+      ],
+      "send_enabled": []
+    },
+    "capability": {
+      "index": "1",
+      "owners": []
+    },
+    "circuit": {
+      "account_permissions": [],
+      "disabled_type_urls": []
+    },
+    "consensus": null,
+    "crisis": {
+      "constant_fee": {
+        "denom": "umfx",
+        "amount": "100000000"
+      }
+    },
+    "distribution": {
+      "params": {
+        "community_tax": "0.000000000000000000",
+        "base_proposer_reward": "0.000000000000000000",
+        "bonus_proposer_reward": "0.000000000000000000",
+        "withdraw_addr_enabled": true
+      },
+      "fee_pool": {
+        "community_pool": []
+      },
+      "delegator_withdraw_infos": [],
+      "previous_proposer": "",
+      "outstanding_rewards": [],
+      "validator_accumulated_commissions": [],
+      "validator_historical_rewards": [],
+      "validator_current_rewards": [],
+      "delegator_starting_infos": [],
+      "validator_slash_events": []
+    },
+    "evidence": {
+      "evidence": []
+    },
+    "feegrant": {
+      "allowances": [
+        {
+          "granter": "manifest1h0t70u5rljl4e6je3ydtkruj6lqlr7rhmegcrr",
+          "grantee": "manifest1xlxtf5gf2duwrqzfqqzpdsvduumq4wgxltesw4",
+          "allowance": {
+            "@type": "/cosmos.feegrant.v1beta1.AllowedMsgAllowance",
+            "allowance": {
+              "@type": "/cosmos.feegrant.v1beta1.BasicAllowance",
+              "spend_limit": [],
+              "expiration": null
+            },
+            "allowed_messages": [
+              "/cosmos.bank.v1beta1.MsgSend"
+            ]
+          }
+        }
+      ]
+    },
+    "feeibc": {
+      "identified_fees": [],
+      "fee_enabled_channels": [],
+      "registered_payees": [],
+      "registered_counterparty_payees": [],
+      "forward_relayers": []
+    },
+    "genutil": {
+      "gen_txs": [
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "ledger-mainnet-d-006",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.000000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "",
+                "validator_address": "manifestvaloper1mpvj8m8eddc8m3wh84wnvr2vklmns284f822t6",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "CPsO17ZId6EUx0H5snwlz3NsBtIgOiMZpE3UFe3RXcw="
+                },
+                "value": {
+                  "denom": "upoa",
+                  "amount": "1000000"
+                }
+              }
+            ],
+            "memo": "19012b77d4e3972fb8f60cca6ddb5dd81917da55@67.214.160.113:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A6LPlysvi3Pt+Nn9OBR7Q0g3IlbVedGnGpXxh1Bv722Z"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "68Fp0kGXYMFmM0xnrrL3Suw18MM86u6HYWUoAVxS9KAu57CTQBo9pn/aHigXM3XRTYd2fLfUYDuV6AwFH7vd0g=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "ledger-mainnet-d-008",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.000000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "",
+                "validator_address": "manifestvaloper1d2x48gz7mzl2lysqm9rrmzezhxfa3xaruyz59z",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "UezXQUx608YV0X52juUtPHynGgNrKQoN818vMjAl60c="
+                },
+                "value": {
+                  "denom": "upoa",
+                  "amount": "1000000"
+                }
+              }
+            ],
+            "memo": "1c28c332b5a2a9f3414146351614722027465d5e@128.136.150.201:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A5h15SizSHZMvQi9Nil3Y2tmB3cmY+iwVhrz5BpIuKWb"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "4Ab6egTwjksWtqSlWxKjEg4mNrs4vQoCgPW9CnavRnY5mk3RZ3Hh9B6rl7duR5RRfpXCTXEC5unYrrju0B5MBg=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "ledger-mainnet-d-015",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.000000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "",
+                "validator_address": "manifestvaloper1q4r30zwgjduutd52f0cay9wkuek06dfvqqfk94",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "GK4QTTpTf09BLMmzw0rkk7KMTxoMFAIKTOVASDx7fcU="
+                },
+                "value": {
+                  "denom": "upoa",
+                  "amount": "1000000"
+                }
+              }
+            ],
+            "memo": "1cdbea64a8cd4e77207abb951f38bff71e20e238@8.40.118.144:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AnS12EVLjmPyGsFy5tVDbxfWdWY6sb2g7Hw4h5QU6Dh1"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "q1w2aMuEg7TPZJRH5FtWQZpEXt8H8pqXXxCoPV8TKYRKX2218Y7UsawxOaoMAKiAjv+TjD+Qvn8r2zD8LUJiog=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "ledger-mainnet-d-013",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.000000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "",
+                "validator_address": "manifestvaloper12msyucsyulqxpe65aykcuphx5f37xzgfxxp82e",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "ivhVCYfeHURFxrJz0YdOXCo3pIr8lTOH4HRm3F36NmQ="
+                },
+                "value": {
+                  "denom": "upoa",
+                  "amount": "1000000"
+                }
+              }
+            ],
+            "memo": "1dabd1ce14ecf91eb9332463aa104b69e414f92b@8.40.118.142:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A67LL2QaX2H2BSmKOOUrcbvJpsL4+q6gi5UYO0bJNIj2"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "HS6IIbh30fivzoQE2ddIKFHe+YWLlrgeWkR6s3Viv/A+TV9rMUBrYGiP/FV5u9jmjShPkcooRbnuE2Dfl9R+7A=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "ledger-mainnet-d-005",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.000000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "",
+                "validator_address": "manifestvaloper16weeju09nzre96ef40r0p34ggu2ddnfjl0g38f",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "Ifm0RLnaB+NPJrlMY0nIGfjW1RmLNnhLLJroYIyLw3I="
+                },
+                "value": {
+                  "denom": "upoa",
+                  "amount": "1000000"
+                }
+              }
+            ],
+            "memo": "33dfc7e4982aa792d63f5d07c6cba6bab9cc6088@67.214.160.112:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AnqWP9FS3Y82L3RoazPHLcS7sS36P5Zu4zzKSA6dzJo1"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "OxLtyuHWIvtw5OwXD8mqYJAQutCFwM3UgoVlOvZLXCQLaVqV+axJzWHs6xyGDWcCHLCTX4QtEnJYdcB2RBBMUQ=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "ledger-mainnet-d-002",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.000000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "",
+                "validator_address": "manifestvaloper194gjxxn32yy05tj42mateaycxnywn5efgunxpc",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "wOUGuLVgoR/L0VlL/RU3ayWj/2DYmGlMC6FXflFWaws="
+                },
+                "value": {
+                  "denom": "upoa",
+                  "amount": "1000000"
+                }
+              }
+            ],
+            "memo": "4c95e43f40a8370c97d7f8ecc83e7db67f64379e@172.20.188.52:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AxxiDOrqbyZz5Ts6OlCYqmTYanPFjZD/lSF6XnR/uJXx"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "jsfCqKAb+jybT7c5iZP/kpr1ikt7VxOC/+CLFZ5+/CcwK2eyIHulxufkilg7CQnn7nBLbMOB1GA1YdrniVRqvg=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "ledger-mainnet-d-016",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.000000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "",
+                "validator_address": "manifestvaloper14qdfguf5t6qqrhun74yge5sgepy4frw42xqv6w",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "ILMI4YCZ5PDj57o6IPQ8K8fpR+tbwKWFVobn7vOoJd8="
+                },
+                "value": {
+                  "denom": "upoa",
+                  "amount": "1000000"
+                }
+              }
+            ],
+            "memo": "58b66fc86af20ba55ad0dec7860d09f4d472dcc1@128.136.208.168:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "Al/uTW3zczPlAhI+7mXxAUo/VbH7voVI7tJnqQZyKJFD"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "2pg1RXXBhrXDc80zjFAvadxTrU28ju8JHMyGtpzyWtYC+0w3TVupieaM5p4QHcodoWMostWRAyQcA+n0cfiseg=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "ledger-mainnet-d-004",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.000000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "",
+                "validator_address": "manifestvaloper1dxwfsm3vpttp8eaupv3swms22k9qmt7atvqqtn",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "K626kqFq7sOHzVWo3rDGU1H/9fYUAdTRUpzM/eOKqpE="
+                },
+                "value": {
+                  "denom": "upoa",
+                  "amount": "1000000"
+                }
+              }
+            ],
+            "memo": "59b27029709a276a89bbccc1fa2fe05c5a4daecc@67.214.160.111:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AjDKAPj5uEd2Rp0L8U27zKCzpKvtkaDoq8FyT7acozr8"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "omguAuflrG/z9lpHoHOfNxAAiZD7N9F/bYBVwdLyZnArqPi8EddTwQShL++ybu6u5e4CmPHr9Z1U7RgoCMsnow=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "ledger-mainnet-d-014",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.000000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "",
+                "validator_address": "manifestvaloper14alzf9ywl3j7gqd84e85sqetljpyz6qavchjlk",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "qsq87zc0MX7Hqf07oQhZZFL4Bs4hUGco2eX9ufUqjTg="
+                },
+                "value": {
+                  "denom": "upoa",
+                  "amount": "1000000"
+                }
+              }
+            ],
+            "memo": "79c938ebe044b4d99b0aa235124bc861f65bdc74@8.40.118.143:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A2ISihJDTAnmMnpxNNKdtaTtQKHwaclmM9tDxuWrxP8+"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "wqeTQOvtzIpPGQvdsP4yqn6L7TXMVes1Cq/S2/LNuxV+BVKj3gf0Cs3d4ZVldC7Jpi0dzSMljSmCMtNa+3Lflw=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "ledger-mainnet-d-007",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.000000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "",
+                "validator_address": "manifestvaloper1h0vy8qttguy93ldq983n23zxtznlfhueznf32p",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "k6PYa3qs/DiN0PB58J9tlCCv5fyFD+dgCgpI+jKJKHk="
+                },
+                "value": {
+                  "denom": "upoa",
+                  "amount": "1000000"
+                }
+              }
+            ],
+            "memo": "8846c0afd32ae7a4249f83d97fd7aa6ddf978340@128.136.150.200:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AtMwr7UGrf9AtjcpzSYJUl7vXJtioMq+QaK/XjIeixp4"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "cIr/IggL3A65CYuGm9gabPkblghD/0CznOIe5AV5l/14+Ss7ceEvrW+YLS5rbUFdmktWW0dePuz+hlmsJoYGBg=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "ledger-mainnet-d-001",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.000000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "",
+                "validator_address": "manifestvaloper1y2g78fu6x2ypv59jaeugx80pycrd5jm72nrprn",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "pDDZTFilinjv4AahOdYkXQq0O4fW/p19n+CaUt/4MIc="
+                },
+                "value": {
+                  "denom": "upoa",
+                  "amount": "1000000"
+                }
+              }
+            ],
+            "memo": "88cf148918b94a5f7a96e1988b57a405be793b10@172.20.188.51:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A/xIcL6OX1daC+7AcM1G/IUVxGH0pARTNcgUePZMqE9f"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "staXsIX8uE8e4e1QIcor0nFsncz2bmqYirKDGWhVyO8o+Rd9ZncmuJuzrpuxo7qsE94q6Gw2dxgMxUmQs/1YBw=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "ledger-mainnet-d-012",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.000000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "",
+                "validator_address": "manifestvaloper1ernh2phcx3lhyc4ktx450vnn8jaf6se432q88r",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "AMsjEzupHZgoGbynANKn/e2ZTGofeGDtgO5vZVI3wYU="
+                },
+                "value": {
+                  "denom": "upoa",
+                  "amount": "1000000"
+                }
+              }
+            ],
+            "memo": "89cdd8d6c801e7c7549c7acc3fe86641ec37de65@72.15.248.236:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A8GGAxAi0DBkjN3sd4boUrmxDcOOcrsRneGBuFRrpa6o"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "RGN2YwdxEL45msc7AY4m1i+odxu8uyfHSYGcCVGnHuJToG4yRIp+QJ9I+QqGgj34xl+8eO0rq7LydIfSzzf3Dg=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "ledger-mainnet-d-003",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.000000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "",
+                "validator_address": "manifestvaloper1xdzl4jwtkgn0tv80kps0wx0yhcppsakc6aald4",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "gFiGshhHcwPbNYFlwPW5llCFJ56bnnZaDq3F9LJ2WtE="
+                },
+                "value": {
+                  "denom": "upoa",
+                  "amount": "1000000"
+                }
+              }
+            ],
+            "memo": "a27e351ad9b3eb73057f9a7d533a44710a6c71ab@172.20.188.58:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "As0KeQSF/KnIxq/fkjljnpLuQh7Txwih7UEiFst4V1ms"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "FmBn5XSjffeV1UNfMwkbYTpe4xSR+OHDStQo7zX7IttyC7mFomCRchjJ4mC/XnUOjGlkM/joG/d6lNI+kZgidA=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "ledger-mainnet-d-010",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.000000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "",
+                "validator_address": "manifestvaloper19k8cd926pst4wfhutv23zq8yef7j2uzjwjm04l",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "Q61BaPbcM+C3Hv2wZXLcjZ/LrFfd9IbMyYsWsi7stYE="
+                },
+                "value": {
+                  "denom": "upoa",
+                  "amount": "1000000"
+                }
+              }
+            ],
+            "memo": "aa22ec89cd24a52c90e471109547b82e7befb8a3@172.16.7.228:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AtO9CkCFquoj7/5LdKgHxlR7b71UnhPMWGBZ2E2JuB9Y"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "V312fTwpl1FMxHV5aGwRzB1ZZhUpYnZ1F8EE4MpKe1ItZyA0itSjA7nySE8LCnyFL8rYR+6b9b1u/MgIcRX0wA=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "ledger-mainnet-d-018",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.000000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "",
+                "validator_address": "manifestvaloper1p8kx3x9mwyuszlwd4qhffjhl2s6u80vn7nwtx9",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "5YtNpX/tWMKKiHq8WjiAav2BgCzuHZL3zcllSPrFMTw="
+                },
+                "value": {
+                  "denom": "upoa",
+                  "amount": "1000000"
+                }
+              }
+            ],
+            "memo": "d5524266cfac019d5fd00608a7dafbeb347c1069@128.136.208.170:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AgwLvIy1GSkRfJs74uEA8yvSMYbAf/d3U1qTmO3s/6uH"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "+D5z4+ckmAhHttv1jc6s0uzvUH4v4beiO0dVHDhYE4U071r250MAqbYZDDQQJc90uSKhvkQ4FV9Mbvn7NGigFg=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "ledger-mainnet-d-017",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.000000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "",
+                "validator_address": "manifestvaloper14paj6zhtlnrwejv7k66gks7etavcfkx6u3qqj9",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "2oLmIZebkEick8JHHinBsxzOAYr5YGxlO0zToY5A8jc="
+                },
+                "value": {
+                  "denom": "upoa",
+                  "amount": "1000000"
+                }
+              }
+            ],
+            "memo": "d8e36f53eb12915f47fdd9da1b108b0b9b9fea1f@128.136.208.169:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "Ar3CUeltcho+rYclL9AzLRuzy2pf1eQPIWvGatPcbFfg"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "Ho6lW0/z1C4E7qFHMJebjfNgQCDDRc3b7UD7Z9+35toN4iSghS0fRL3+Up6Djn0+2TIFVQJFd41aiz5hWF0gbw=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "ledger-mainnet-d-009",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.000000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "",
+                "validator_address": "manifestvaloper1hyge0uunt3h8nj0xcc69976gtzc4yvssykup9h",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "NU8F2A0jSGIaEbKSmxpMDdsn2h44qf1dM2xqeVhkjTU="
+                },
+                "value": {
+                  "denom": "upoa",
+                  "amount": "1000000"
+                }
+              }
+            ],
+            "memo": "e8d9a5603868199d2bdc841aa10e3890fe0c6f47@128.136.150.202:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "Ao4BSKR41A91BUk93N3Rs3c+bNfBBIJIvzgEZYHlKngF"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "6aJV8X3a6c9PwukFr72JyYYut08b5jfrBkSKUe4FFKEzTbLjHzWyOMxSonYQghHQkD7sBCwkX5AHt9jzr2NJqg=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "ledger-mainnet-d-011",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.000000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "",
+                "validator_address": "manifestvaloper15dkj8jyk9gcqlf0u7m37t6x77nlyx572azdq7s",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "Ue5HVYsuFvejnQ8IHjVGYIGYg0insTXhv1JujtAalTY="
+                },
+                "value": {
+                  "denom": "upoa",
+                  "amount": "1000000"
+                }
+              }
+            ],
+            "memo": "e9c6b8e17e5de29551b4479dc8f7118f8c5c4d3a@72.15.248.232:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "Au/ar7QqMgJM6OjSy2W8+t6exkBmD7IY6elod/w11WKG"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "gRFMtpQxjoe2n4vNlvieHK5TMp7SWEdwaGBdWg6PMEsN3J0PeUR+TRnWuGe8b2PPDz14goF5ZNjSSNhsUG1bRw=="
+          ]
+        }
+      ]
+    },
+    "gov": {
+      "starting_proposal_id": "1",
+      "deposits": [],
+      "votes": [],
+      "proposals": [],
+      "deposit_params": null,
+      "voting_params": null,
+      "tally_params": null,
+      "params": {
+        "min_deposit": [
+          {
+            "denom": "umfx",
+            "amount": "100000000"
+          }
+        ],
+        "max_deposit_period": "259200s",
+        "voting_period": "259200s",
+        "quorum": "0.334000000000000000",
+        "threshold": "0.500000000000000000",
+        "veto_threshold": "0.334000000000000000",
+        "min_initial_deposit_ratio": "0.000000000000000000",
+        "proposal_cancel_ratio": "0.500000000000000000",
+        "proposal_cancel_dest": "",
+        "expedited_voting_period": "86400s",
+        "expedited_threshold": "0.667000000000000000",
+        "expedited_min_deposit": [
+          {
+            "denom": "umfx",
+            "amount": "250000000"
+          }
+        ],
+        "burn_vote_quorum": false,
+        "burn_proposal_deposit_prevote": false,
+        "burn_vote_veto": true,
+        "min_deposit_ratio": "0.100000000000000000"
+      },
+      "constitution": ""
+    },
+    "group": {
+      "group_seq": "1",
+      "groups": [
+        {
+          "id": "1",
+          "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj",
+          "metadata": "POA Admin",
+          "version": "2",
+          "total_weight": "2",
+          "created_at": "2025-03-05T15:10:54.372190727Z"
+        }
+      ],
+      "group_members": [
+        {
+          "group_id": "1",
+          "member": {
+            "address": "manifest1uupqj486uf2xssqd2hh5t6yl4yu9f3ytck526e",
+            "weight": "1",
+            "metadata": "felix",
+            "added_at": "2025-03-05T15:10:54.372190727Z"
+          }
+        },
+        {
+          "group_id": "1",
+          "member": {
+            "address": "manifest106q78vjc3z7crtmuynvaqdw5glfem37d4rfzcy",
+            "weight": "1",
+            "metadata": "justin",
+            "added_at": "2025-03-05T15:10:54.372190727Z"
+          }
+        },
+        {
+          "group_id": "1",
+          "member": {
+            "address": "manifest1ch7msyfl38aprpxjvkpsy5vf9aa678e5szw090",
+            "weight": "1",
+            "metadata": "hans",
+            "added_at": "2025-03-05T15:10:54.372190727Z"
+          }
+        },
+        {
+          "group_id": "1",
+          "member": {
+            "address": "manifest1uwqjtgjhjctjc45ugy7ev5prprhehc7wclherd",
+            "weight": "1",
+            "metadata": "chalabi",
+            "added_at": "2025-03-05T15:10:54.372190727Z"
+          }
+        }
+      ],
+      "group_policy_seq": "1",
+      "group_policies": [
+        {
+          "address": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj",
+          "group_id": "1",
+          "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj",
+          "metadata": "AQ==",
+          "version": "2",
+          "decision_policy": {
+            "@type": "/cosmos.group.v1.ThresholdDecisionPolicy",
+            "threshold": "2",
+            "windows": {
+              "voting_period": "1800s",
+              "min_execution_period": "0s"
+            }
+          },
+          "created_at": "2025-03-05T15:10:54.372190727Z"
+        }
+      ],
+      "proposal_seq": "0",
+      "proposals": [],
+      "votes": []
+    },
+    "ibc": {
+      "client_genesis": {
+        "clients": [],
+        "clients_consensus": [],
+        "clients_metadata": [],
+        "params": {
+          "allowed_clients": [
+            "*"
+          ]
+        },
+        "create_localhost": false,
+        "next_client_sequence": "0"
+      },
+      "connection_genesis": {
+        "connections": [],
+        "client_connection_paths": [],
+        "next_connection_sequence": "0",
+        "params": {
+          "max_expected_time_per_block": "30000000000"
+        }
+      },
+      "channel_genesis": {
+        "channels": [],
+        "acknowledgements": [],
+        "commitments": [],
+        "receipts": [],
+        "send_sequences": [],
+        "recv_sequences": [],
+        "ack_sequences": [],
+        "next_channel_sequence": "0",
+        "params": {
+          "upgrade_timeout": {
+            "height": {
+              "revision_number": "0",
+              "revision_height": "0"
+            },
+            "timestamp": "600000000000"
+          }
+        }
+      }
+    },
+    "interchainaccounts": {
+      "controller_genesis_state": {
+        "active_channels": [],
+        "interchain_accounts": [],
+        "ports": [],
+        "params": {
+          "controller_enabled": true
+        }
+      },
+      "host_genesis_state": {
+        "active_channels": [],
+        "interchain_accounts": [],
+        "port": "icahost",
+        "params": {
+          "host_enabled": true,
+          "allow_messages": [
+            "*"
+          ]
+        }
+      }
+    },
+    "manifest": {},
+    "mint": {
+      "minter": {
+        "inflation": "0.000000000000000000",
+        "annual_provisions": "0.000000000000000000"
+      },
+      "params": {
+        "mint_denom": "notused",
+        "inflation_rate_change": "0.000000000000000000",
+        "inflation_max": "0.000000000000000000",
+        "inflation_min": "0.000000000000000000",
+        "goal_bonded": "0.670000000000000000",
+        "blocks_per_year": "6311520"
+      }
+    },
+    "params": null,
+    "poa": {
+      "vals": []
+    },
+    "slashing": {
+      "params": {
+        "signed_blocks_window": "10000",
+        "min_signed_per_window": "0.050000000000000000",
+        "downtime_jail_duration": "60s",
+        "slash_fraction_double_sign": "0.000000000000000000",
+        "slash_fraction_downtime": "0.000000000000000000"
+      },
+      "signing_infos": [],
+      "missed_blocks": []
+    },
+    "staking": {
+      "params": {
+        "unbonding_time": "1814400s",
+        "max_validators": 100,
+        "max_entries": 7,
+        "historical_entries": 10000,
+        "bond_denom": "upoa",
+        "min_commission_rate": "0.000000000000000000"
+      },
+      "last_total_power": "0",
+      "last_validator_powers": [],
+      "validators": [],
+      "delegations": [],
+      "unbonding_delegations": [],
+      "redelegations": [],
+      "exported": false
+    },
+    "tokenfactory": {
+      "params": {
+        "denom_creation_fee": [
+          {
+            "denom": "umfx",
+            "amount": "1000000"
+          }
+        ],
+        "denom_creation_gas_consume": 2000000
+      },
+      "factory_denoms": [
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ucncro",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uprrnr",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ussmgt",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/udoom",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrot",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uapmaa",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ublerg",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/utfaaa",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ufocal",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ucoral",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uindis",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ucures",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwroz",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzn",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrze",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzs",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzx",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usole",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzv",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzz",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzf",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzr",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/utrace",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uhive",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ucats",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzt",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usold",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwrzo",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwroo",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usolc",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usolb",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usola",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/usunsw",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uwind",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ugwatt",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ugcatt",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ulendx",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uwmvt",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/udblt",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uframe",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ubitch",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/umega",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ugrey",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uaaa",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upgsql",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uabus",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uspdt",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/utst",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        }
+      ]
+    },
+    "transfer": {
+      "port_id": "transfer",
+      "denom_traces": [],
+      "params": {
+        "send_enabled": true,
+        "receive_enabled": true
+      },
+      "total_escrowed": []
+    },
+    "upgrade": {},
+    "vesting": {},
+    "wasm": {
+      "params": {
+        "code_upload_access": {
+          "permission": "AnyOfAddresses",
+          "addresses": ["manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"]
+        },
+        "instantiate_default_permission": "AnyOfAddresses"
+      },
+      "codes": [],
+      "contracts": [],
+      "sequences": []
+    }
+  },
+  "consensus": {
+    "params": {
+      "block": {
+        "max_bytes": "22020096",
+        "max_gas": "-1"
+      },
+      "evidence": {
+        "max_age_num_blocks": "100000",
+        "max_age_duration": "172800000000000",
+        "max_bytes": "1048576"
+      },
+      "validator": {
+        "pub_key_types": [
+          "ed25519"
+        ]
+      },
+      "version": {
+        "app": "0"
+      },
+      "abci": {
+        "vote_extensions_enable_height": "1"
+      }
+    }
+  }
+}
