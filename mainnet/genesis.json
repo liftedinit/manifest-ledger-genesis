@@ -1,7 +1,7 @@
 {
   "app_name": "manifestd",
-  "app_version": "v1.0.0",
-  "genesis_time": "2025-03-06T18:02:56.14007187Z",
+  "app_version": "v1.0.3",
+  "genesis_time": "2025-03-18T19:17:48.513470315Z",
   "chain_id": "manifest-ledger-mainnet",
   "initial_height": 1,
   "app_hash": null,
@@ -18,142 +18,135 @@
       "accounts": [
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "manifest1y2g78fu6x2ypv59jaeugx80pycrd5jm7kn740p",
+          "address": "manifest1k45rmz8esl7grx86fq7dcqjfhyaehdc7nqsp6t",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "manifest194gjxxn32yy05tj42mateaycxnywn5ef5uwjd2",
+          "address": "manifest15gkvvtsq7lyl4n9fyhez4nkamqzdah8r32wm69",
           "pub_key": null,
           "account_number": "1",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "manifest1xdzl4jwtkgn0tv80kps0wx0yhcppsakcxaqtp8",
+          "address": "manifest1m0g40m93mxa8450jt6vrapgjadsvj5mv28ws7s",
           "pub_key": null,
           "account_number": "2",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "manifest1dxwfsm3vpttp8eaupv3swms22k9qmt7ahva58p",
+          "address": "manifest1j0gug0yqr738fu0rxzv6a9jqh36yghlj8lh68x",
           "pub_key": null,
           "account_number": "3",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "manifest16weeju09nzre96ef40r0p34ggu2ddnfjr049tm",
+          "address": "manifest1ym8f6rpqw8z22a49w79xtn93kemuva00cckcl5",
           "pub_key": null,
           "account_number": "4",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "manifest1mpvj8m8eddc8m3wh84wnvr2vklmns28448h78g",
+          "address": "manifest1x0ns8a00x57gpw7jv7waf2pyzrd3nsvz5xt8sh",
           "pub_key": null,
           "account_number": "5",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "manifest1h0vy8qttguy93ldq983n23zxtznlfhue7n59xn",
+          "address": "manifest1ukxz30d9n0k9h0kygr9s8z646tc9vat2qz5k4v",
           "pub_key": null,
           "account_number": "6",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "manifest1d2x48gz7mzl2lysqm9rrmzezhxfa3xarqylqfs",
+          "address": "manifest1t5f3yk2gptynmlvsjypslgl7z488mxm35t3y47",
           "pub_key": null,
           "account_number": "7",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "manifest1hyge0uunt3h8nj0xcc69976gtzc4yvssckp4f9",
+          "address": "manifest1qdq6j6jtduw07mvsp2kml6vxy5dtrejadk8lep",
           "pub_key": null,
           "account_number": "8",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "manifest19k8cd926pst4wfhutv23zq8yef7j2uzjjjxmed",
+          "address": "manifest1e049z2rnw9kl5dn5jy7nup7hwsp8snl2quzrrz",
           "pub_key": null,
           "account_number": "9",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "manifest15dkj8jyk9gcqlf0u7m37t6x77nlyx572pzs5jz",
+          "address": "manifest13fladt5fz7ldxjsmclhv5x556npnrya4vgvwqc",
           "pub_key": null,
           "account_number": "10",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "manifest1ernh2phcx3lhyc4ktx450vnn8jaf6se4d2ant3",
+          "address": "manifest12q5h255ql3ym4rxzaky0agw7vn2dre5287acx7",
           "pub_key": null,
           "account_number": "11",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "manifest12msyucsyulqxpe65aykcuphx5f37xzgf6xunxt",
+          "address": "manifest1rjgfc39dav5m52dwgny0qvehgd8xe8nnd5qx6m",
           "pub_key": null,
           "account_number": "12",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "manifest14alzf9ywl3j7gqd84e85sqetljpyz6qasc2xny",
+          "address": "manifest1r5ut3kh90zf03sea32mlzn2694fdswle2gfk9x",
           "pub_key": null,
           "account_number": "13",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "manifest1q4r30zwgjduutd52f0cay9wkuek06dfvuq5zf8",
+          "address": "manifest1u2x53arpetru0x3frf702qhut8xja2nxnh3m32",
           "pub_key": null,
           "account_number": "14",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "manifest14qdfguf5t6qqrhun74yge5sgepy4frw4kxacku",
+          "address": "manifest1xzwg7ca748uegx4g7hs4u62ewl83m2qr5l36yy",
           "pub_key": null,
           "account_number": "15",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "manifest14paj6zhtlnrwejv7k66gks7etavcfkx6q3a57h",
+          "address": "manifest133553sdkclqr82qn67dtk0rcvf65sw40h5m7m9",
           "pub_key": null,
           "account_number": "16",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "manifest1p8kx3x9mwyuszlwd4qhffjhl2s6u80vnznnl2h",
+          "address": "manifest133tql8a9whdg84akq2s2uyy6r92v7us8v3jhpl",
           "pub_key": null,
           "account_number": "17",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "manifest1xlxtf5gf2duwrqzfqqzpdsvduumq4wgxltesw4",
+          "address": "manifest17nrv4m7n7q7t8xckjsd5f8tvucjhxqeznkzg7f",
           "pub_key": null,
           "account_number": "18",
-          "sequence": "0"
-        },
-        {
-          "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "manifest1h0t70u5rljl4e6je3ydtkruj6lqlr7rhmegcrr",
-          "pub_key": null,
-          "account_number": "19",
           "sequence": "0"
         }
       ]
@@ -168,7 +161,7 @@
       },
       "balances": [
         {
-          "address": "manifest1q4r30zwgjduutd52f0cay9wkuek06dfvuq5zf8",
+          "address": "manifest1qdq6j6jtduw07mvsp2kml6vxy5dtrejadk8lep",
           "coins": [
             {
               "denom": "upoa",
@@ -177,7 +170,7 @@
           ]
         },
         {
-          "address": "manifest1p8kx3x9mwyuszlwd4qhffjhl2s6u80vnznnl2h",
+          "address": "manifest1rjgfc39dav5m52dwgny0qvehgd8xe8nnd5qx6m",
           "coins": [
             {
               "denom": "upoa",
@@ -186,7 +179,7 @@
           ]
         },
         {
-          "address": "manifest1y2g78fu6x2ypv59jaeugx80pycrd5jm7kn740p",
+          "address": "manifest1r5ut3kh90zf03sea32mlzn2694fdswle2gfk9x",
           "coins": [
             {
               "denom": "upoa",
@@ -195,7 +188,7 @@
           ]
         },
         {
-          "address": "manifest194gjxxn32yy05tj42mateaycxnywn5ef5uwjd2",
+          "address": "manifest1ym8f6rpqw8z22a49w79xtn93kemuva00cckcl5",
           "coins": [
             {
               "denom": "upoa",
@@ -204,7 +197,7 @@
           ]
         },
         {
-          "address": "manifest19k8cd926pst4wfhutv23zq8yef7j2uzjjjxmed",
+          "address": "manifest1xzwg7ca748uegx4g7hs4u62ewl83m2qr5l36yy",
           "coins": [
             {
               "denom": "upoa",
@@ -213,7 +206,7 @@
           ]
         },
         {
-          "address": "manifest1xdzl4jwtkgn0tv80kps0wx0yhcppsakcxaqtp8",
+          "address": "manifest1x0ns8a00x57gpw7jv7waf2pyzrd3nsvz5xt8sh",
           "coins": [
             {
               "denom": "upoa",
@@ -222,7 +215,115 @@
           ]
         },
         {
-          "address": "manifest1xlxtf5gf2duwrqzfqqzpdsvduumq4wgxltesw4",
+          "address": "manifest12q5h255ql3ym4rxzaky0agw7vn2dre5287acx7",
+          "coins": [
+            {
+              "denom": "upoa",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "manifest1t5f3yk2gptynmlvsjypslgl7z488mxm35t3y47",
+          "coins": [
+            {
+              "denom": "upoa",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "manifest13fladt5fz7ldxjsmclhv5x556npnrya4vgvwqc",
+          "coins": [
+            {
+              "denom": "upoa",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "manifest133tql8a9whdg84akq2s2uyy6r92v7us8v3jhpl",
+          "coins": [
+            {
+              "denom": "upoa",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "manifest133553sdkclqr82qn67dtk0rcvf65sw40h5m7m9",
+          "coins": [
+            {
+              "denom": "upoa",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "manifest1j0gug0yqr738fu0rxzv6a9jqh36yghlj8lh68x",
+          "coins": [
+            {
+              "denom": "upoa",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "manifest15gkvvtsq7lyl4n9fyhez4nkamqzdah8r32wm69",
+          "coins": [
+            {
+              "denom": "upoa",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "manifest1k45rmz8esl7grx86fq7dcqjfhyaehdc7nqsp6t",
+          "coins": [
+            {
+              "denom": "upoa",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "manifest1e049z2rnw9kl5dn5jy7nup7hwsp8snl2quzrrz",
+          "coins": [
+            {
+              "denom": "upoa",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "manifest1m0g40m93mxa8450jt6vrapgjadsvj5mv28ws7s",
+          "coins": [
+            {
+              "denom": "upoa",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "manifest1u2x53arpetru0x3frf702qhut8xja2nxnh3m32",
+          "coins": [
+            {
+              "denom": "upoa",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "manifest1ukxz30d9n0k9h0kygr9s8z646tc9vat2qz5k4v",
+          "coins": [
+            {
+              "denom": "upoa",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "manifest17nrv4m7n7q7t8xckjsd5f8tvucjhxqeznkzg7f",
           "coins": [
             {
               "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uaaa",
@@ -303,6 +404,10 @@
             {
               "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/umega",
               "amount": "100000000000000000000000"
+            },
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upatmo",
+              "amount": "10000000000000000000"
             },
             {
               "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upgsql",
@@ -418,124 +523,7 @@
             },
             {
               "denom": "umfx",
-              "amount": "133809045698343049000"
-            }
-          ]
-        },
-        {
-          "address": "manifest12msyucsyulqxpe65aykcuphx5f37xzgf6xunxt",
-          "coins": [
-            {
-              "denom": "upoa",
-              "amount": "1000000"
-            }
-          ]
-        },
-        {
-          "address": "manifest1dxwfsm3vpttp8eaupv3swms22k9qmt7ahva58p",
-          "coins": [
-            {
-              "denom": "upoa",
-              "amount": "1000000"
-            }
-          ]
-        },
-        {
-          "address": "manifest1d2x48gz7mzl2lysqm9rrmzezhxfa3xarqylqfs",
-          "coins": [
-            {
-              "denom": "upoa",
-              "amount": "1000000"
-            }
-          ]
-        },
-        {
-          "address": "manifest15dkj8jyk9gcqlf0u7m37t6x77nlyx572pzs5jz",
-          "coins": [
-            {
-              "denom": "upoa",
-              "amount": "1000000"
-            }
-          ]
-        },
-        {
-          "address": "manifest14qdfguf5t6qqrhun74yge5sgepy4frw4kxacku",
-          "coins": [
-            {
-              "denom": "upoa",
-              "amount": "1000000"
-            }
-          ]
-        },
-        {
-          "address": "manifest14paj6zhtlnrwejv7k66gks7etavcfkx6q3a57h",
-          "coins": [
-            {
-              "denom": "upoa",
-              "amount": "1000000"
-            }
-          ]
-        },
-        {
-          "address": "manifest14alzf9ywl3j7gqd84e85sqetljpyz6qasc2xny",
-          "coins": [
-            {
-              "denom": "upoa",
-              "amount": "1000000"
-            }
-          ]
-        },
-        {
-          "address": "manifest1hyge0uunt3h8nj0xcc69976gtzc4yvssckp4f9",
-          "coins": [
-            {
-              "denom": "upoa",
-              "amount": "1000000"
-            }
-          ]
-        },
-        {
-          "address": "manifest1h0t70u5rljl4e6je3ydtkruj6lqlr7rhmegcrr",
-          "coins": [
-            {
-              "denom": "umfx",
-              "amount": "1000000000"
-            }
-          ]
-        },
-        {
-          "address": "manifest1h0vy8qttguy93ldq983n23zxtznlfhue7n59xn",
-          "coins": [
-            {
-              "denom": "upoa",
-              "amount": "1000000"
-            }
-          ]
-        },
-        {
-          "address": "manifest1ernh2phcx3lhyc4ktx450vnn8jaf6se4d2ant3",
-          "coins": [
-            {
-              "denom": "upoa",
-              "amount": "1000000"
-            }
-          ]
-        },
-        {
-          "address": "manifest16weeju09nzre96ef40r0p34ggu2ddnfjr049tm",
-          "coins": [
-            {
-              "denom": "upoa",
-              "amount": "1000000"
-            }
-          ]
-        },
-        {
-          "address": "manifest1mpvj8m8eddc8m3wh84wnvr2vklmns28448h78g",
-          "coins": [
-            {
-              "denom": "upoa",
-              "amount": "1000000"
+              "amount": "135305710943662317000"
             }
           ]
         }
@@ -620,6 +608,10 @@
         {
           "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/umega",
           "amount": "100000000000000000000000"
+        },
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upatmo",
+          "amount": "10000000000000000000"
         },
         {
           "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upgsql",
@@ -735,7 +727,7 @@
         },
         {
           "denom": "umfx",
-          "amount": "133809045699343049000"
+          "amount": "135305710943662317000"
         },
         {
           "denom": "upoa",
@@ -743,6 +735,31 @@
         }
       ],
       "denom_metadata": [
+        {
+          "description": "PATMOSBunker1",
+          "denom_units": [
+            {
+              "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upatmo",
+              "exponent": 0,
+              "aliases": [
+                "PATMO"
+              ]
+            },
+            {
+              "denom": "PATMO",
+              "exponent": 6,
+              "aliases": [
+                "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upatmo"
+              ]
+            }
+          ],
+          "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upatmo",
+          "display": "PATMO",
+          "name": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upatmo",
+          "symbol": "PATMO",
+          "uri": "",
+          "uri_hash": ""
+        },
         {
           "description": "CancerCureS001",
           "denom_units": [
@@ -2007,8 +2024,8 @@
     "feegrant": {
       "allowances": [
         {
-          "granter": "manifest1h0t70u5rljl4e6je3ydtkruj6lqlr7rhmegcrr",
-          "grantee": "manifest1xlxtf5gf2duwrqzfqqzpdsvduumq4wgxltesw4",
+          "granter": "manifest1smyf5dkx8e6z78nta55v2rwf97v5td3m3pej7l",
+          "grantee": "manifest17nrv4m7n7q7t8xckjsd5f8tvucjhxqeznkzg7f",
           "allowance": {
             "@type": "/cosmos.feegrant.v1beta1.AllowedMsgAllowance",
             "allowance": {
@@ -2038,7 +2055,7 @@
               {
                 "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                 "description": {
-                  "moniker": "ledger-mainnet-d-006",
+                  "moniker": "mainnet-ledger-012",
                   "identity": "",
                   "website": "",
                   "security_contact": "",
@@ -2051,10 +2068,10 @@
                 },
                 "min_self_delegation": "1",
                 "delegator_address": "",
-                "validator_address": "manifestvaloper1mpvj8m8eddc8m3wh84wnvr2vklmns284f822t6",
+                "validator_address": "manifestvaloper12q5h255ql3ym4rxzaky0agw7vn2dre52m7qv2v",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "CPsO17ZId6EUx0H5snwlz3NsBtIgOiMZpE3UFe3RXcw="
+                  "key": "jeOmAlbVK4h+iPSO+e6ylv/7xUnoLu7p8hyULqdOh9M="
                 },
                 "value": {
                   "denom": "upoa",
@@ -2062,7 +2079,7 @@
                 }
               }
             ],
-            "memo": "19012b77d4e3972fb8f60cca6ddb5dd81917da55@67.214.160.113:26656",
+            "memo": "05fc6f229f72590f757f20e9dc3ec9911a131dbd@72.15.248.236:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -2072,7 +2089,7 @@
               {
                 "public_key": {
                   "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "A6LPlysvi3Pt+Nn9OBR7Q0g3IlbVedGnGpXxh1Bv722Z"
+                  "key": "Av5NuZCz94/lSa8sBRiFMOlCXFudZdNnK/Zp7ygk9Xvq"
                 },
                 "mode_info": {
                   "single": {
@@ -2091,7 +2108,7 @@
             "tip": null
           },
           "signatures": [
-            "68Fp0kGXYMFmM0xnrrL3Suw18MM86u6HYWUoAVxS9KAu57CTQBo9pn/aHigXM3XRTYd2fLfUYDuV6AwFH7vd0g=="
+            "cY5yk8qHTFr1K69OpVHc744ANRSPTRcxi2nSE87P0mpm6+cmAyRDwlIloV+EazvWh82EtP43gRn2hSuToI0ZHw=="
           ]
         },
         {
@@ -2100,7 +2117,7 @@
               {
                 "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                 "description": {
-                  "moniker": "ledger-mainnet-d-008",
+                  "moniker": "mainnet-ledger-013",
                   "identity": "",
                   "website": "",
                   "security_contact": "",
@@ -2113,10 +2130,10 @@
                 },
                 "min_self_delegation": "1",
                 "delegator_address": "",
-                "validator_address": "manifestvaloper1d2x48gz7mzl2lysqm9rrmzezhxfa3xaruyz59z",
+                "validator_address": "manifestvaloper1rjgfc39dav5m52dwgny0qvehgd8xe8nn35ajkf",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "UezXQUx608YV0X52juUtPHynGgNrKQoN818vMjAl60c="
+                  "key": "8pjwTpb1davs7qbica9P73tsLOLR03GxeFgHE8AnpPc="
                 },
                 "value": {
                   "denom": "upoa",
@@ -2124,7 +2141,7 @@
                 }
               }
             ],
-            "memo": "1c28c332b5a2a9f3414146351614722027465d5e@128.136.150.201:26656",
+            "memo": "274c6424560d50e4b04b432fc3d21db96d8d97ed@8.40.118.142:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -2134,7 +2151,7 @@
               {
                 "public_key": {
                   "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "A5h15SizSHZMvQi9Nil3Y2tmB3cmY+iwVhrz5BpIuKWb"
+                  "key": "A1+yp6Ejbmn+WCxt/p2xE43s7lxep16isbK+WGFJYxOL"
                 },
                 "mode_info": {
                   "single": {
@@ -2153,7 +2170,7 @@
             "tip": null
           },
           "signatures": [
-            "4Ab6egTwjksWtqSlWxKjEg4mNrs4vQoCgPW9CnavRnY5mk3RZ3Hh9B6rl7duR5RRfpXCTXEC5unYrrju0B5MBg=="
+            "B764biLz/CeOnrVl2+WCfrMPMccIBf9m2KKCOAMHnFx74hah53l0zFMi5UCumTkPT1xwJ2yxXP6Y9qDKvpiJQg=="
           ]
         },
         {
@@ -2162,7 +2179,7 @@
               {
                 "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                 "description": {
-                  "moniker": "ledger-mainnet-d-015",
+                  "moniker": "mainnet-ledger-004",
                   "identity": "",
                   "website": "",
                   "security_contact": "",
@@ -2175,10 +2192,10 @@
                 },
                 "min_self_delegation": "1",
                 "delegator_address": "",
-                "validator_address": "manifestvaloper1q4r30zwgjduutd52f0cay9wkuek06dfvqqfk94",
+                "validator_address": "manifestvaloper1j0gug0yqr738fu0rxzv6a9jqh36yghljml2wt5",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "GK4QTTpTf09BLMmzw0rkk7KMTxoMFAIKTOVASDx7fcU="
+                  "key": "c4AZhAtRo+QWLdfSMiywOJngUkcbXV9cNgiVuFxybN8="
                 },
                 "value": {
                   "denom": "upoa",
@@ -2186,7 +2203,7 @@
                 }
               }
             ],
-            "memo": "1cdbea64a8cd4e77207abb951f38bff71e20e238@8.40.118.144:26656",
+            "memo": "36f19267eef38b6bf8f3e6983df09b566b1ae773@67.214.160.111:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -2196,7 +2213,7 @@
               {
                 "public_key": {
                   "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "AnS12EVLjmPyGsFy5tVDbxfWdWY6sb2g7Hw4h5QU6Dh1"
+                  "key": "A/xcTMXYeEkJ3mCPfK08/AYU5JVAs4khPumAxSXnzKZO"
                 },
                 "mode_info": {
                   "single": {
@@ -2215,7 +2232,7 @@
             "tip": null
           },
           "signatures": [
-            "q1w2aMuEg7TPZJRH5FtWQZpEXt8H8pqXXxCoPV8TKYRKX2218Y7UsawxOaoMAKiAjv+TjD+Qvn8r2zD8LUJiog=="
+            "iBAVGJqPrizYDDYMCYyj2Nyt3nasteF0PIfotSnULIsl39M+eayLGNcbfQjlyTNVhmLZel6NNQltHFLweQI3+g=="
           ]
         },
         {
@@ -2224,7 +2241,7 @@
               {
                 "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                 "description": {
-                  "moniker": "ledger-mainnet-d-013",
+                  "moniker": "mainnet-ledger-008",
                   "identity": "",
                   "website": "",
                   "security_contact": "",
@@ -2237,10 +2254,10 @@
                 },
                 "min_self_delegation": "1",
                 "delegator_address": "",
-                "validator_address": "manifestvaloper12msyucsyulqxpe65aykcuphx5f37xzgfxxp82e",
+                "validator_address": "manifestvaloper1t5f3yk2gptynmlvsjypslgl7z488mxm3gtvsev",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "ivhVCYfeHURFxrJz0YdOXCo3pIr8lTOH4HRm3F36NmQ="
+                  "key": "SqFKts8rQqJd6g1516MP7ORMyfb9PNc5WkAhB6Vl+5Q="
                 },
                 "value": {
                   "denom": "upoa",
@@ -2248,7 +2265,7 @@
                 }
               }
             ],
-            "memo": "1dabd1ce14ecf91eb9332463aa104b69e414f92b@8.40.118.142:26656",
+            "memo": "4bf7af151e7fb72351c0f2815d197a3e0a4ffbec@128.136.150.201:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -2258,7 +2275,7 @@
               {
                 "public_key": {
                   "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "A67LL2QaX2H2BSmKOOUrcbvJpsL4+q6gi5UYO0bJNIj2"
+                  "key": "Au0DxVrBGRlOgaiFK/3TnENfps4hxBKA5o+dF8O2h22A"
                 },
                 "mode_info": {
                   "single": {
@@ -2277,7 +2294,7 @@
             "tip": null
           },
           "signatures": [
-            "HS6IIbh30fivzoQE2ddIKFHe+YWLlrgeWkR6s3Viv/A+TV9rMUBrYGiP/FV5u9jmjShPkcooRbnuE2Dfl9R+7A=="
+            "v3mtK6S/yWHJNfH3hOAlnVG+TEtT5vkiu3LvQxL0UYgKwYn8E1G6WGLQ6YAFTvGI0uOZXlee3AvqdQeUBJE3xQ=="
           ]
         },
         {
@@ -2286,7 +2303,7 @@
               {
                 "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                 "description": {
-                  "moniker": "ledger-mainnet-d-005",
+                  "moniker": "mainnet-ledger-010",
                   "identity": "",
                   "website": "",
                   "security_contact": "",
@@ -2299,10 +2316,10 @@
                 },
                 "min_self_delegation": "1",
                 "delegator_address": "",
-                "validator_address": "manifestvaloper16weeju09nzre96ef40r0p34ggu2ddnfjl0g38f",
+                "validator_address": "manifestvaloper1e049z2rnw9kl5dn5jy7nup7hwsp8snl2uulh0s",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "Ifm0RLnaB+NPJrlMY0nIGfjW1RmLNnhLLJroYIyLw3I="
+                  "key": "2bfTL4IhAGJkF+a78vB3RzQf1h2NSJzADstP6jWFahw="
                 },
                 "value": {
                   "denom": "upoa",
@@ -2310,7 +2327,7 @@
                 }
               }
             ],
-            "memo": "33dfc7e4982aa792d63f5d07c6cba6bab9cc6088@67.214.160.112:26656",
+            "memo": "5e472b98171e4a50ed416622eaebb86f11a529b0@72.15.248.228:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -2320,7 +2337,7 @@
               {
                 "public_key": {
                   "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "AnqWP9FS3Y82L3RoazPHLcS7sS36P5Zu4zzKSA6dzJo1"
+                  "key": "AvUxS73mImasno5EM862vMMtyXyffIxzN6hjRzwq8o25"
                 },
                 "mode_info": {
                   "single": {
@@ -2339,7 +2356,7 @@
             "tip": null
           },
           "signatures": [
-            "OxLtyuHWIvtw5OwXD8mqYJAQutCFwM3UgoVlOvZLXCQLaVqV+axJzWHs6xyGDWcCHLCTX4QtEnJYdcB2RBBMUQ=="
+            "zYzRIz7iPtySoow5/YrzYgSXW6uVUZ+lyBsrC1a95ekO4SPEEl6IhTmSsJksiFmlEmLhLx6zp/7omjT+SY59+Q=="
           ]
         },
         {
@@ -2348,7 +2365,7 @@
               {
                 "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                 "description": {
-                  "moniker": "ledger-mainnet-d-002",
+                  "moniker": "mainnet-ledger-007",
                   "identity": "",
                   "website": "",
                   "security_contact": "",
@@ -2361,10 +2378,10 @@
                 },
                 "min_self_delegation": "1",
                 "delegator_address": "",
-                "validator_address": "manifestvaloper194gjxxn32yy05tj42mateaycxnywn5efgunxpc",
+                "validator_address": "manifestvaloper1ukxz30d9n0k9h0kygr9s8z646tc9vat2uzfze7",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "wOUGuLVgoR/L0VlL/RU3ayWj/2DYmGlMC6FXflFWaws="
+                  "key": "csih0Mlq6SLD+G6NWJQcrd/BC0YR9U2RcSIKIRIiYAI="
                 },
                 "value": {
                   "denom": "upoa",
@@ -2372,7 +2389,7 @@
                 }
               }
             ],
-            "memo": "4c95e43f40a8370c97d7f8ecc83e7db67f64379e@172.20.188.52:26656",
+            "memo": "5fa881078ed0b0cc859bbeedc158cd8819f38795@128.136.150.200:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -2382,7 +2399,7 @@
               {
                 "public_key": {
                   "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "AxxiDOrqbyZz5Ts6OlCYqmTYanPFjZD/lSF6XnR/uJXx"
+                  "key": "A7wUtnnhzdzPldUdkpLew2jvSEt0X09BID3olMshrg05"
                 },
                 "mode_info": {
                   "single": {
@@ -2401,7 +2418,7 @@
             "tip": null
           },
           "signatures": [
-            "jsfCqKAb+jybT7c5iZP/kpr1ikt7VxOC/+CLFZ5+/CcwK2eyIHulxufkilg7CQnn7nBLbMOB1GA1YdrniVRqvg=="
+            "iTauaTSujcIwz2aVzV3Io+ELMD1F9dsnxQsiBMAfhJwht62fbokRbdI5LhcRi/HRQLRgOWpU9k9MzRJeFpNNRA=="
           ]
         },
         {
@@ -2410,7 +2427,7 @@
               {
                 "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                 "description": {
-                  "moniker": "ledger-mainnet-d-016",
+                  "moniker": "mainnet-ledger-003",
                   "identity": "",
                   "website": "",
                   "security_contact": "",
@@ -2423,10 +2440,10 @@
                 },
                 "min_self_delegation": "1",
                 "delegator_address": "",
-                "validator_address": "manifestvaloper14qdfguf5t6qqrhun74yge5sgepy4frw42xqv6w",
+                "validator_address": "manifestvaloper1m0g40m93mxa8450jt6vrapgjadsvj5mvk8nyjz",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "ILMI4YCZ5PDj57o6IPQ8K8fpR+tbwKWFVobn7vOoJd8="
+                  "key": "BY3xb+Rvp3vDhw8P4CJxAAWPi3G6crn58ybciMZXefA="
                 },
                 "value": {
                   "denom": "upoa",
@@ -2434,7 +2451,7 @@
                 }
               }
             ],
-            "memo": "58b66fc86af20ba55ad0dec7860d09f4d472dcc1@128.136.208.168:26656",
+            "memo": "73c8d01099db4d1d3e919f032e71fd235a46d0f0@172.20.188.58:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -2444,7 +2461,7 @@
               {
                 "public_key": {
                   "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "Al/uTW3zczPlAhI+7mXxAUo/VbH7voVI7tJnqQZyKJFD"
+                  "key": "AxYzKnz5AyRUA4OFxYm8gn/P4oJpPc8V6zlGoPQb3fPE"
                 },
                 "mode_info": {
                   "single": {
@@ -2463,7 +2480,7 @@
             "tip": null
           },
           "signatures": [
-            "2pg1RXXBhrXDc80zjFAvadxTrU28ju8JHMyGtpzyWtYC+0w3TVupieaM5p4QHcodoWMostWRAyQcA+n0cfiseg=="
+            "+uWYJFgQV0deri59KMs5iUveLCXYyJBdnPbivULLvJB0MaAv8gMG6phwBzgPfAzDZdU7czw0ttFMUQnljMWOww=="
           ]
         },
         {
@@ -2472,7 +2489,7 @@
               {
                 "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                 "description": {
-                  "moniker": "ledger-mainnet-d-004",
+                  "moniker": "mainnet-ledger-006",
                   "identity": "",
                   "website": "",
                   "security_contact": "",
@@ -2485,10 +2502,10 @@
                 },
                 "min_self_delegation": "1",
                 "delegator_address": "",
-                "validator_address": "manifestvaloper1dxwfsm3vpttp8eaupv3swms22k9qmt7atvqqtn",
+                "validator_address": "manifestvaloper1x0ns8a00x57gpw7jv7waf2pyzrd3nsvzgxknu9",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "K626kqFq7sOHzVWo3rDGU1H/9fYUAdTRUpzM/eOKqpE="
+                  "key": "RnRf/l7bB1XfvAFJlkrDXkyXoxEs3a9IcV8X8CWZvtM="
                 },
                 "value": {
                   "denom": "upoa",
@@ -2496,7 +2513,7 @@
                 }
               }
             ],
-            "memo": "59b27029709a276a89bbccc1fa2fe05c5a4daecc@67.214.160.111:26656",
+            "memo": "8375efb9775599d19540f6f25b344d6ee79a69f0@67.214.160.113:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -2506,7 +2523,7 @@
               {
                 "public_key": {
                   "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "AjDKAPj5uEd2Rp0L8U27zKCzpKvtkaDoq8FyT7acozr8"
+                  "key": "AqeF+f5J9b0G3poY7ULXW98pIfZULtbz6c1LIqA4hxAA"
                 },
                 "mode_info": {
                   "single": {
@@ -2525,7 +2542,7 @@
             "tip": null
           },
           "signatures": [
-            "omguAuflrG/z9lpHoHOfNxAAiZD7N9F/bYBVwdLyZnArqPi8EddTwQShL++ybu6u5e4CmPHr9Z1U7RgoCMsnow=="
+            "HVIoOHix3yb6WLwb/slfBaoWGaUOH7afs3fKkmRhu2k7OevHXAEMY0B24yDq1MBNpjH48yR4v1AXLIwr5eC4Vw=="
           ]
         },
         {
@@ -2534,7 +2551,7 @@
               {
                 "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                 "description": {
-                  "moniker": "ledger-mainnet-d-014",
+                  "moniker": "mainnet-ledger-011",
                   "identity": "",
                   "website": "",
                   "security_contact": "",
@@ -2547,10 +2564,10 @@
                 },
                 "min_self_delegation": "1",
                 "delegator_address": "",
-                "validator_address": "manifestvaloper14alzf9ywl3j7gqd84e85sqetljpyz6qavchjlk",
+                "validator_address": "manifestvaloper13fladt5fz7ldxjsmclhv5x556npnrya4sg36v2",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "qsq87zc0MX7Hqf07oQhZZFL4Bs4hUGco2eX9ufUqjTg="
+                  "key": "coSC+EHArCnNTAljGa8TX3cSS+y9sJIpAUNpaRwyt8c="
                 },
                 "value": {
                   "denom": "upoa",
@@ -2558,7 +2575,7 @@
                 }
               }
             ],
-            "memo": "79c938ebe044b4d99b0aa235124bc861f65bdc74@8.40.118.143:26656",
+            "memo": "8e8ae70678573df1481ff47469a7f846bd951e53@72.15.248.232:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -2568,7 +2585,7 @@
               {
                 "public_key": {
                   "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "A2ISihJDTAnmMnpxNNKdtaTtQKHwaclmM9tDxuWrxP8+"
+                  "key": "AxtWjizWfZyrRmMKPmiiOR3q4W15sItUqx8XtVE7H8Q9"
                 },
                 "mode_info": {
                   "single": {
@@ -2587,7 +2604,7 @@
             "tip": null
           },
           "signatures": [
-            "wqeTQOvtzIpPGQvdsP4yqn6L7TXMVes1Cq/S2/LNuxV+BVKj3gf0Cs3d4ZVldC7Jpi0dzSMljSmCMtNa+3Lflw=="
+            "OBtP3OhDRGImUbCC4hkkMYNlzWBr5cLKzpj5vjO9PyEl7IceI4lWG9CFNx8Lp/i/R06nPsMy2XB5VUiagHmaxw=="
           ]
         },
         {
@@ -2596,7 +2613,7 @@
               {
                 "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                 "description": {
-                  "moniker": "ledger-mainnet-d-007",
+                  "moniker": "mainnet-ledger-001",
                   "identity": "",
                   "website": "",
                   "security_contact": "",
@@ -2609,10 +2626,10 @@
                 },
                 "min_self_delegation": "1",
                 "delegator_address": "",
-                "validator_address": "manifestvaloper1h0vy8qttguy93ldq983n23zxtznlfhueznf32p",
+                "validator_address": "manifestvaloper1k45rmz8esl7grx86fq7dcqjfhyaehdc70qd4ke",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "k6PYa3qs/DiN0PB58J9tlCCv5fyFD+dgCgpI+jKJKHk="
+                  "key": "xbILxLlkqH/8h+v0E/hn2Glkt3W58dD54yH4Np6MbDg="
                 },
                 "value": {
                   "denom": "upoa",
@@ -2620,7 +2637,7 @@
                 }
               }
             ],
-            "memo": "8846c0afd32ae7a4249f83d97fd7aa6ddf978340@128.136.150.200:26656",
+            "memo": "aa5b03c30571e9e67e13feaf41736d1804d4661c@172.20.188.51:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -2630,7 +2647,7 @@
               {
                 "public_key": {
                   "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "AtMwr7UGrf9AtjcpzSYJUl7vXJtioMq+QaK/XjIeixp4"
+                  "key": "AwUZBqR4sHJj1G8izipcV+Qm3UMgHmm+3XliPrdDL/2e"
                 },
                 "mode_info": {
                   "single": {
@@ -2649,7 +2666,7 @@
             "tip": null
           },
           "signatures": [
-            "cIr/IggL3A65CYuGm9gabPkblghD/0CznOIe5AV5l/14+Ss7ceEvrW+YLS5rbUFdmktWW0dePuz+hlmsJoYGBg=="
+            "OuIX1+cOlUOnsBI5aS73hKaOwk1xPdrz9DAFbFVWke45Dclr/tnXPMoI0jtw5rta74xIYxQYJ2yYEIKPOKn5Bw=="
           ]
         },
         {
@@ -2658,7 +2675,7 @@
               {
                 "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                 "description": {
-                  "moniker": "ledger-mainnet-d-001",
+                  "moniker": "mainnet-ledger-009",
                   "identity": "",
                   "website": "",
                   "security_contact": "",
@@ -2671,10 +2688,10 @@
                 },
                 "min_self_delegation": "1",
                 "delegator_address": "",
-                "validator_address": "manifestvaloper1y2g78fu6x2ypv59jaeugx80pycrd5jm72nrprn",
+                "validator_address": "manifestvaloper1qdq6j6jtduw07mvsp2kml6vxy5dtreja3k6t4n",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "pDDZTFilinjv4AahOdYkXQq0O4fW/p19n+CaUt/4MIc="
+                  "key": "d0H7pNCwe/u5USpRdFIJPCEiuurqAVMkOsP+pYnzcTI="
                 },
                 "value": {
                   "denom": "upoa",
@@ -2682,7 +2699,7 @@
                 }
               }
             ],
-            "memo": "88cf148918b94a5f7a96e1988b57a405be793b10@172.20.188.51:26656",
+            "memo": "b812b1f676874c3a0bf93044fba6b4184c8c5d82@128.136.150.202:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -2692,7 +2709,7 @@
               {
                 "public_key": {
                   "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "A/xIcL6OX1daC+7AcM1G/IUVxGH0pARTNcgUePZMqE9f"
+                  "key": "AheVjjfzv1iNQ0dsnyWOl1gNRpglm+kdngpQVFxHLsvJ"
                 },
                 "mode_info": {
                   "single": {
@@ -2711,7 +2728,7 @@
             "tip": null
           },
           "signatures": [
-            "staXsIX8uE8e4e1QIcor0nFsncz2bmqYirKDGWhVyO8o+Rd9ZncmuJuzrpuxo7qsE94q6Gw2dxgMxUmQs/1YBw=="
+            "4z3+d7foZrE/6L1UIKnWBYQG15GrKH4Z0WBK3NsGc+UVubN+ipxAYIZgtcYBemix6PY2FpPlKRGC3tCuuJoRfg=="
           ]
         },
         {
@@ -2720,7 +2737,7 @@
               {
                 "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                 "description": {
-                  "moniker": "ledger-mainnet-d-012",
+                  "moniker": "mainnet-ledger-015",
                   "identity": "",
                   "website": "",
                   "security_contact": "",
@@ -2733,10 +2750,10 @@
                 },
                 "min_self_delegation": "1",
                 "delegator_address": "",
-                "validator_address": "manifestvaloper1ernh2phcx3lhyc4ktx450vnn8jaf6se432q88r",
+                "validator_address": "manifestvaloper1u2x53arpetru0x3frf702qhut8xja2nx0hv0ac",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "AMsjEzupHZgoGbynANKn/e2ZTGofeGDtgO5vZVI3wYU="
+                  "key": "5HuuePNKmXjI8DLqnLRh8ADWoC+jcSx0UrWVtJS6W3c="
                 },
                 "value": {
                   "denom": "upoa",
@@ -2744,7 +2761,7 @@
                 }
               }
             ],
-            "memo": "89cdd8d6c801e7c7549c7acc3fe86641ec37de65@72.15.248.236:26656",
+            "memo": "c78fe8c938b3515e7d60c27cc2b4fb1836a792ae@8.40.118.144:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -2754,7 +2771,7 @@
               {
                 "public_key": {
                   "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "A8GGAxAi0DBkjN3sd4boUrmxDcOOcrsRneGBuFRrpa6o"
+                  "key": "Ah37wStaLu3TvKPNgZDHYbs1/3ummZ4UBIoHcRc/TwSB"
                 },
                 "mode_info": {
                   "single": {
@@ -2773,7 +2790,7 @@
             "tip": null
           },
           "signatures": [
-            "RGN2YwdxEL45msc7AY4m1i+odxu8uyfHSYGcCVGnHuJToG4yRIp+QJ9I+QqGgj34xl+8eO0rq7LydIfSzzf3Dg=="
+            "feGhpHeNXGLl9uPIOC1Dtu0EKGVB2CwEhDhzzqyqY45feaHf5ud51SligFeq+iiR+i/EHRPzyVcODcveGFkEAQ=="
           ]
         },
         {
@@ -2782,7 +2799,7 @@
               {
                 "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                 "description": {
-                  "moniker": "ledger-mainnet-d-003",
+                  "moniker": "mainnet-ledger-018",
                   "identity": "",
                   "website": "",
                   "security_contact": "",
@@ -2795,10 +2812,10 @@
                 },
                 "min_self_delegation": "1",
                 "delegator_address": "",
-                "validator_address": "manifestvaloper1xdzl4jwtkgn0tv80kps0wx0yhcppsakc6aald4",
+                "validator_address": "manifestvaloper133tql8a9whdg84akq2s2uyy6r92v7us8s30rdd",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "gFiGshhHcwPbNYFlwPW5llCFJ56bnnZaDq3F9LJ2WtE="
+                  "key": "M8ste4rQBpQfEMBaLm6aeQaD2trn3s0f2W2Wm0/Fx88="
                 },
                 "value": {
                   "denom": "upoa",
@@ -2806,7 +2823,7 @@
                 }
               }
             ],
-            "memo": "a27e351ad9b3eb73057f9a7d533a44710a6c71ab@172.20.188.58:26656",
+            "memo": "c7dfccde045b02f47084a369f26b0a65cdcf909e@128.136.208.170:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -2816,7 +2833,7 @@
               {
                 "public_key": {
                   "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "As0KeQSF/KnIxq/fkjljnpLuQh7Txwih7UEiFst4V1ms"
+                  "key": "A0ltge8puZ5rgvp4M5LaseG0BdBZpkQXdvY8Dd8s0F5h"
                 },
                 "mode_info": {
                   "single": {
@@ -2835,7 +2852,7 @@
             "tip": null
           },
           "signatures": [
-            "FmBn5XSjffeV1UNfMwkbYTpe4xSR+OHDStQo7zX7IttyC7mFomCRchjJ4mC/XnUOjGlkM/joG/d6lNI+kZgidA=="
+            "bHDRU09KBCie1DNPMjYNzAzpDGF6hB4XE+rbYe8JB01IC5EvdYTqCb42c3ccJwRm+hISmYfqv/qClVOCOnNUpw=="
           ]
         },
         {
@@ -2844,7 +2861,7 @@
               {
                 "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                 "description": {
-                  "moniker": "ledger-mainnet-d-010",
+                  "moniker": "mainnet-ledger-014",
                   "identity": "",
                   "website": "",
                   "security_contact": "",
@@ -2857,10 +2874,10 @@
                 },
                 "min_self_delegation": "1",
                 "delegator_address": "",
-                "validator_address": "manifestvaloper19k8cd926pst4wfhutv23zq8yef7j2uzjwjm04l",
+                "validator_address": "manifestvaloper1r5ut3kh90zf03sea32mlzn2694fdswlekg5zf5",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "Q61BaPbcM+C3Hv2wZXLcjZ/LrFfd9IbMyYsWsi7stYE="
+                  "key": "7ep/0GgSHMzVD6/Aq/F42p+QrIAz93B5U2e01UWaQIE="
                 },
                 "value": {
                   "denom": "upoa",
@@ -2868,7 +2885,7 @@
                 }
               }
             ],
-            "memo": "aa22ec89cd24a52c90e471109547b82e7befb8a3@172.16.7.228:26656",
+            "memo": "c9e6abf409c8a67d7ed07a42e88b447096a80fb5@8.40.118.143:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -2878,7 +2895,7 @@
               {
                 "public_key": {
                   "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "AtO9CkCFquoj7/5LdKgHxlR7b71UnhPMWGBZ2E2JuB9Y"
+                  "key": "Av0zG3QN+sajUho4uivTK7s4dALQE/xTWsBq8NlMfrnt"
                 },
                 "mode_info": {
                   "single": {
@@ -2897,7 +2914,7 @@
             "tip": null
           },
           "signatures": [
-            "V312fTwpl1FMxHV5aGwRzB1ZZhUpYnZ1F8EE4MpKe1ItZyA0itSjA7nySE8LCnyFL8rYR+6b9b1u/MgIcRX0wA=="
+            "030LkjtRKFNF9HmTpgBXTYcILQm0a7HhJNjLRDuOHoclm7h0Zms1949M8oNWPEv8q4jX0oUWA9TN1GBzH+EAYw=="
           ]
         },
         {
@@ -2906,7 +2923,7 @@
               {
                 "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                 "description": {
-                  "moniker": "ledger-mainnet-d-018",
+                  "moniker": "mainnet-ledger-002",
                   "identity": "",
                   "website": "",
                   "security_contact": "",
@@ -2919,10 +2936,10 @@
                 },
                 "min_self_delegation": "1",
                 "delegator_address": "",
-                "validator_address": "manifestvaloper1p8kx3x9mwyuszlwd4qhffjhl2s6u80vn7nwtx9",
+                "validator_address": "manifestvaloper15gkvvtsq7lyl4n9fyhez4nkamqzdah8rd2n0kh",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "5YtNpX/tWMKKiHq8WjiAav2BgCzuHZL3zcllSPrFMTw="
+                  "key": "pq1/wddMgncuOaGWUDao9lAd4SctL44uWn/RL1vSQD4="
                 },
                 "value": {
                   "denom": "upoa",
@@ -2930,7 +2947,7 @@
                 }
               }
             ],
-            "memo": "d5524266cfac019d5fd00608a7dafbeb347c1069@128.136.208.170:26656",
+            "memo": "da83a60db2e76d43bde8480670f0dc5253571dc0@172.20.188.52:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -2940,7 +2957,7 @@
               {
                 "public_key": {
                   "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "AgwLvIy1GSkRfJs74uEA8yvSMYbAf/d3U1qTmO3s/6uH"
+                  "key": "A+m5LlwiWxW13lZypt1obD4IDJ1IFXVk3i0s97L7uuC2"
                 },
                 "mode_info": {
                   "single": {
@@ -2959,7 +2976,7 @@
             "tip": null
           },
           "signatures": [
-            "+D5z4+ckmAhHttv1jc6s0uzvUH4v4beiO0dVHDhYE4U071r250MAqbYZDDQQJc90uSKhvkQ4FV9Mbvn7NGigFg=="
+            "BoaGKZvdrGLLp387mrG9LPLYXOHUmY+ENLQwmBPL/b1KpmNgMeBUv5RQ+z3ptMcz14vWY+aK+0CqbFga8ScnRQ=="
           ]
         },
         {
@@ -2968,7 +2985,7 @@
               {
                 "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                 "description": {
-                  "moniker": "ledger-mainnet-d-017",
+                  "moniker": "mainnet-ledger-017",
                   "identity": "",
                   "website": "",
                   "security_contact": "",
@@ -2981,10 +2998,10 @@
                 },
                 "min_self_delegation": "1",
                 "delegator_address": "",
-                "validator_address": "manifestvaloper14paj6zhtlnrwejv7k66gks7etavcfkx6u3qqj9",
+                "validator_address": "manifestvaloper133553sdkclqr82qn67dtk0rcvf65sw40t5x2hh",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "2oLmIZebkEick8JHHinBsxzOAYr5YGxlO0zToY5A8jc="
+                  "key": "46rFSBdwD6//+mzIeaFbvVffyVTasyDkX8ZYT2UK2t8="
                 },
                 "value": {
                   "denom": "upoa",
@@ -2992,7 +3009,7 @@
                 }
               }
             ],
-            "memo": "d8e36f53eb12915f47fdd9da1b108b0b9b9fea1f@128.136.208.169:26656",
+            "memo": "efdb247807fef36131bc6c6fa5ad1075685214c7@128.136.208.169:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -3002,7 +3019,7 @@
               {
                 "public_key": {
                   "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "Ar3CUeltcho+rYclL9AzLRuzy2pf1eQPIWvGatPcbFfg"
+                  "key": "AuLRBVE5zwS6kjny2pmYEpmMHL1qeB5u502jdgN1cb76"
                 },
                 "mode_info": {
                   "single": {
@@ -3021,7 +3038,7 @@
             "tip": null
           },
           "signatures": [
-            "Ho6lW0/z1C4E7qFHMJebjfNgQCDDRc3b7UD7Z9+35toN4iSghS0fRL3+Up6Djn0+2TIFVQJFd41aiz5hWF0gbw=="
+            "K8TrIT5lTS2mr+c59FBiE+gr3wACFA3MpXvkl1lPEToHrdldvrlx01FaB+aItLiL5T1iXNfoHoPD0FJ4VJJh3A=="
           ]
         },
         {
@@ -3030,7 +3047,7 @@
               {
                 "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                 "description": {
-                  "moniker": "ledger-mainnet-d-009",
+                  "moniker": "mainnet-ledger-005",
                   "identity": "",
                   "website": "",
                   "security_contact": "",
@@ -3043,10 +3060,10 @@
                 },
                 "min_self_delegation": "1",
                 "delegator_address": "",
-                "validator_address": "manifestvaloper1hyge0uunt3h8nj0xcc69976gtzc4yvssykup9h",
+                "validator_address": "manifestvaloper1ym8f6rpqw8z22a49w79xtn93kemuva00yctvnx",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "NU8F2A0jSGIaEbKSmxpMDdsn2h44qf1dM2xqeVhkjTU="
+                  "key": "D8DzN3Emk5C8B4Bo0wHzo+wRjVMeHPGjp0fjTqyx5Jo="
                 },
                 "value": {
                   "denom": "upoa",
@@ -3054,7 +3071,7 @@
                 }
               }
             ],
-            "memo": "e8d9a5603868199d2bdc841aa10e3890fe0c6f47@128.136.150.202:26656",
+            "memo": "f7b84284415624d4c26df4ad862d43446e41930b@67.214.160.112:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -3064,7 +3081,7 @@
               {
                 "public_key": {
                   "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "Ao4BSKR41A91BUk93N3Rs3c+bNfBBIJIvzgEZYHlKngF"
+                  "key": "A54QVrtInQRX/4yfxiOwUWBDcO4UQ6pS8miYqqIR4R9U"
                 },
                 "mode_info": {
                   "single": {
@@ -3083,7 +3100,7 @@
             "tip": null
           },
           "signatures": [
-            "6aJV8X3a6c9PwukFr72JyYYut08b5jfrBkSKUe4FFKEzTbLjHzWyOMxSonYQghHQkD7sBCwkX5AHt9jzr2NJqg=="
+            "6353qhRI1G00GKMbZVTbpnDEB67+ymuXdf4wg1yd0IM3BIWjB7W8NTUq8jrZzQUl2RQMrzDu5cTJdLqQhDUHwg=="
           ]
         },
         {
@@ -3092,7 +3109,7 @@
               {
                 "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                 "description": {
-                  "moniker": "ledger-mainnet-d-011",
+                  "moniker": "mainnet-ledger-016",
                   "identity": "",
                   "website": "",
                   "security_contact": "",
@@ -3105,10 +3122,10 @@
                 },
                 "min_self_delegation": "1",
                 "delegator_address": "",
-                "validator_address": "manifestvaloper15dkj8jyk9gcqlf0u7m37t6x77nlyx572azdq7s",
+                "validator_address": "manifestvaloper1xzwg7ca748uegx4g7hs4u62ewl83m2qrglvwgk",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "Ue5HVYsuFvejnQ8IHjVGYIGYg0insTXhv1JujtAalTY="
+                  "key": "7Rk4GTzMdVO/jhm3+qaeEA8d9z+dJfEr6yam0rBLvUw="
                 },
                 "value": {
                   "denom": "upoa",
@@ -3116,7 +3133,7 @@
                 }
               }
             ],
-            "memo": "e9c6b8e17e5de29551b4479dc8f7118f8c5c4d3a@72.15.248.232:26656",
+            "memo": "f8847191eb904e9d8e3a0e7283c83312c97b14bd@128.136.208.168:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -3126,7 +3143,7 @@
               {
                 "public_key": {
                   "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "Au/ar7QqMgJM6OjSy2W8+t6exkBmD7IY6elod/w11WKG"
+                  "key": "A9bba5UmoUozJldsAjAr6JUuoTKXnKDZhj9P/p3eSLhm"
                 },
                 "mode_info": {
                   "single": {
@@ -3145,7 +3162,7 @@
             "tip": null
           },
           "signatures": [
-            "gRFMtpQxjoe2n4vNlvieHK5TMp7SWEdwaGBdWg6PMEsN3J0PeUR+TRnWuGe8b2PPDz14goF5ZNjSSNhsUG1bRw=="
+            "iHqK/7ZJ7reX0yakOoqJi9TFAKRHKgOpALVYWPCkFzkb18LvnAqdcVN4QxJmPxgq4MbhrQCj5qzSE4xKsxY31g=="
           ]
         }
       ]
@@ -3194,47 +3211,38 @@
         {
           "id": "1",
           "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj",
-          "metadata": "POA Admin",
+          "metadata": "{\"title\":\"POA Admin\",\"authors\":[\"manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj\"],\"details\":\"The Manifest network governance body\"}",
           "version": "2",
-          "total_weight": "2",
-          "created_at": "2025-03-05T15:10:54.372190727Z"
+          "total_weight": "3",
+          "created_at": "2025-03-18T19:18:48.513470315Z"
         }
       ],
       "group_members": [
         {
           "group_id": "1",
           "member": {
-            "address": "manifest1uupqj486uf2xssqd2hh5t6yl4yu9f3ytck526e",
-            "weight": "1",
-            "metadata": "felix",
-            "added_at": "2025-03-05T15:10:54.372190727Z"
-          }
-        },
-        {
-          "group_id": "1",
-          "member": {
-            "address": "manifest106q78vjc3z7crtmuynvaqdw5glfem37d4rfzcy",
+            "address": "manifest14nalsczp8rnu5htrtvshqxa9x40x30m9nmuywj",
             "weight": "1",
             "metadata": "justin",
-            "added_at": "2025-03-05T15:10:54.372190727Z"
+            "added_at": "2025-03-18T19:18:48.513470315Z"
           }
         },
         {
           "group_id": "1",
           "member": {
-            "address": "manifest1ch7msyfl38aprpxjvkpsy5vf9aa678e5szw090",
+            "address": "manifest15s2j6klh9nq0rst0x4pd7psl93eszhj8us8yad",
             "weight": "1",
-            "metadata": "hans",
-            "added_at": "2025-03-05T15:10:54.372190727Z"
+            "metadata": "felix",
+            "added_at": "2025-03-18T19:18:48.513470315Z"
           }
         },
         {
           "group_id": "1",
           "member": {
-            "address": "manifest1uwqjtgjhjctjc45ugy7ev5prprhehc7wclherd",
+            "address": "manifest1sduey8np7vs3u0md6nev2qzuxhpahs3nd36l8m",
             "weight": "1",
-            "metadata": "chalabi",
-            "added_at": "2025-03-05T15:10:54.372190727Z"
+            "metadata": "eric",
+            "added_at": "2025-03-18T19:18:48.513470315Z"
           }
         }
       ],
@@ -3254,7 +3262,7 @@
               "min_execution_period": "0s"
             }
           },
-          "created_at": "2025-03-05T15:10:54.372190727Z"
+          "created_at": "2025-03-18T19:18:48.513470315Z"
         }
       ],
       "proposal_seq": "0",
@@ -3372,15 +3380,16 @@
     },
     "tokenfactory": {
       "params": {
-        "denom_creation_fee": [
-          {
-            "denom": "umfx",
-            "amount": "1000000"
-          }
-        ],
+        "denom_creation_fee": [],
         "denom_creation_gas_consume": 2000000
       },
       "factory_denoms": [
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upatmo",
+          "authority_metadata": {
+            "admin": "manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj"
+          }
+        },
         {
           "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/ucncro",
           "authority_metadata": {
